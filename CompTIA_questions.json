@@ -1,0 +1,3223 @@
+[
+    {
+      "number": 1,
+      "question": "Which of the following vulnerabilities is exploited when an attacker overwrites a register with a malicious address?",
+      "options": {
+        "A": "VM escape",
+        "B": "SQL injection",
+        "C": "Buffer overflow",
+        "D": "Race condition"
+      },
+      "answer": "C",
+      "explanation": "A buffer overflow is a vulnerability that occurs when an application writes more data to a memory buffer than it can hold, causing the excess data to overwrite adjacent memory locations..."
+    },
+    {
+      "number": 2,
+      "question": "Which of the following is a primary security concern for a company setting up a BYOD program?",
+      "options": {
+        "A": "End of life",
+        "B": "Buffer overflow",
+        "C": "VM escape",
+        "D": "Jailbreaking"
+      },
+      "answer": "D",
+      "explanation": "Jailbreaking is a primary security concern for a company setting up a BYOD (Bring Your Own Device) program. Jailbreaking is the process of removing the manufacturer's or the carrier's restrictions on a device..."
+    },
+    {
+      "number": 3,
+      "question": "Which of the following security control types does an acceptable use policy best represent?",
+      "options": {
+        "A": "Detective",
+        "B": "Compensating",
+        "C": "Corrective",
+        "D": "Preventive"
+      },
+      "answer": "D",
+      "explanation": "An acceptable use policy (AUP) is a set of rules that govern how users can access and use a corporate network or the internet. The AUP helps companies minimize their exposure to cyber security threats..."
+    },
+    {
+      "number": 4,
+      "question": "Employees in the research and development business unit receive extensive training to ensure they understand how to best protect company data. Which of the following is the type of data these employees are most likely to use in day-to-day work activities?",
+      "options": {
+        "A": "Encrypted",
+        "B": "Intellectual property",
+        "C": "Critical",
+        "D": "Data in transit"
+      },
+      "answer": "B",
+      "explanation": "Intellectual property is a type of data that consists of ideas, inventions, designs, or other creative works that have commercial value and are protected by law. Employees in the research and development business unit..."
+    },
+    {
+      "number": 5,
+      "question": "A data administrator is configuring authentication for a SaaS application and would like to reduce the number of credentials employees need to maintain. The company prefers to use domain credentials to access new SaaS applications. Which of the following methods would allow this functionality?",
+      "options": {
+        "A": "SSO",
+        "B": "LEAP",
+        "C": "MFA",
+        "D": "PEAP"
+      },
+      "answer": "A",
+      "explanation": "SSO stands for single sign-on, which is a method of authentication that allows users to access multiple applications or services with one set of credentials..."
+    },
+    {
+      "number": 6,
+      "question": "A company must ensure sensitive data at rest is rendered unreadable. Which of the following will the company most likely use?",
+      "options": {
+        "A": "Hashing",
+        "B": "Tokenization",
+        "C": "Encryption",
+        "D": "Segmentation"
+      },
+      "answer": "C",
+      "explanation": "Encryption is a method of transforming data in a way that makes it unreadable without a secret key necessary to decrypt the data back into plaintext. Encryption is one of the most common and effective ways to protect data at rest..."
+    },
+    {
+      "number": 7,
+      "question": "A security operations center determines that the malicious activity detected on a server is normal. Which of the following activities describes the act of ignoring detected activity in the future?",
+      "options": {
+        "A": "Tuning",
+        "B": "Aggregating",
+        "C": "Quarantining",
+        "D": "Archiving"
+      },
+      "answer": "A",
+      "explanation": "Tuning is the activity of adjusting the configuration or parameters of a security tool or system to optimize its performance and reduce false positives or false negatives..."
+    },
+    {
+      "number": 8,
+      "question": "A security administrator is deploying a DLP solution to prevent the exfiltration of sensitive customer data. Which of the following should the administrator do first?",
+      "options": {
+        "A": "Block access to cloud storage websites",
+        "B": "Create a rule to block outgoing email attachments",
+        "C": "Apply classifications to the data",
+        "D": "Remove all user permissions from shares on the file server"
+      },
+      "answer": "C",
+      "explanation": "Data classification is the process of assigning labels or tags to data based on its sensitivity, value, and risk. Data classification is the first step in a data loss prevention (DLP) solution..."
+    },
+    {
+      "number": 9,
+      "question": "A company hired a consultant to perform an offensive security assessment covering penetration testing and social engineering. Which of the following teams will conduct this assessment activity?",
+      "options": {
+        "A": "White",
+        "B": "Purple",
+        "C": "Blue",
+        "D": "Red"
+      },
+      "answer": "D",
+      "explanation": "A red team is a group of security professionals who perform offensive security assessments covering penetration testing and social engineering..."
+    },
+    {
+      "number": 10,
+      "question": "Which of the following describes the process of concealing code or text inside a graphical image?",
+      "options": {
+        "A": "Symmetric encryption",
+        "B": "Hashing",
+        "C": "Data masking",
+        "D": "Steganography"
+      },
+      "answer": "D",
+      "explanation": "Steganography is the process of hiding information within another medium, such as an image, audio, video, or text file. The hidden information is not visible or noticeable to the casual observer..."
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is a hardware-specific vulnerability?",
+      "options": {
+        "A": "Firmware version",
+        "B": "Buffer overflow",
+        "C": "SQL injection",
+        "D": "Cross-site scripting"
+      },
+      "answer": "A",
+      "explanation": "Firmware is a type of software that is embedded in a hardware device, such as a router, a printer, or a BIOS chip. Firmware version is a hardware-specific vulnerability..."
+    },
+    {
+      "number": 12,
+      "question": "An employee receives a text message from an unknown number claiming to be the company's Chief Executive Officer and asking the employee to purchase several gift cards. Which of the following types of attacks does this describe?",
+      "options": {
+        "A": "Vishing",
+        "B": "Smishing",
+        "C": "Pretexting",
+        "D": "Phishing"
+      },
+      "answer": "B",
+      "explanation": "Smishing is a type of phishing attack that uses text messages or common messaging apps to trick victims into clicking on malicious links or providing personal information..."
+    },
+    {
+      "number": 13,
+      "question": "A newly identified network access vulnerability has been found in the OS of legacy loT devices. Which of the following would best mitigate this vulnerability quickly?",
+      "options": {
+        "A": "Insurance",
+        "B": "Patching",
+        "C": "Segmentation",
+        "D": "Replacement"
+      },
+      "answer": "C",
+      "explanation": "Segmentation is a technique that divides a network into smaller subnetworks or segments, each with its own security policies and controls. Segmentation can help mitigate network access vulnerabilities in legacy loT devices..."
+    },
+    {
+      "number": 14,
+      "question": "A systems administrator set up a perimeter firewall but continues to notice suspicious connections between internal endpoints. Which of the following should be set up in order to mitigate the threat posed by the suspicious activity?",
+      "options": {
+        "A": "Host-based firewall",
+        "B": "Web application firewall",
+        "C": "Access control list",
+        "D": "Application allow list"
+      },
+      "answer": "A",
+      "explanation": "A host-based firewall is a software application that runs on an individual endpoint and filters the incoming and outgoing network traffic based on a set of rules..."
+    },
+    {
+      "number": 15,
+      "question": "Several employees received a fraudulent text message from someone claiming to be the Chief Executive Officer (CEO). The message stated: 'I'm in an airport right now with no access to email. I need you to buy gift cards for employee recognition awards. Please send the gift cards to following email address.' Which of the following are the best responses to this situation? (Choose two).",
+      "options": {
+        "A": "Cancel current employee recognition gift cards",
+        "B": "Add a smishing exercise to the annual company training",
+        "C": "Issue a general email warning to the company",
+        "D": "Have the CEO change phone numbers",
+        "E": "Conduct a forensic investigation on the CEO's phone",
+        "F": "Implement mobile device management"
+      },
+      "answer": [
+        "B",
+        "C"
+      ],
+      "explanation": "This situation is an example of smishing, which is a type of phishing that uses text messages (SMS) to entice individuals into providing personal or sensitive information to cybercriminals..."
+    },
+    {
+      "number": 16,
+      "question": "A company is developing a critical system for the government and storing project information on a file share. Which of the following describes how this data will most likely be classified? (Select two).",
+      "options": {
+        "A": "Private",
+        "B": "Confidential",
+        "C": "Public",
+        "D": "Operational",
+        "E": "Urgent",
+        "F": "Restricted"
+      },
+      "answer": [
+        "B",
+        "F"
+      ],
+      "explanation": "Data classification is the process of assigning labels to data based on its sensitivity and business impact. Different organizations and sectors may have different data classification schemes..."
+    },
+    {
+      "number": 17,
+      "question": "A Chief Information Security Officer wants to monitor the company's servers for SQLi attacks and allow for comprehensive investigations if an attack occurs. The company uses SSL decryption to allow traffic monitoring. Which of the following strategies would best accomplish this goal?",
+      "options": {
+        "A": "Logging all NetFlow traffic into a SIEM",
+        "B": "Deploying network traffic sensors on the same subnet as the servers",
+        "C": "Logging endpoint and OS-specific security logs",
+        "D": "Enabling full packet capture for traffic entering and exiting the servers"
+      },
+      "answer": "D",
+      "explanation": "Full packet capture is a technique that records all network traffic passing through a device, such as a router or firewall. It allows for detailed analysis and investigation of network events, such as SQLi attacks..."
+    },
+    {
+      "number": 18,
+      "question": "Which of the following incident response activities ensures evidence is properly handled?",
+      "options": {
+        "A": "E-discovery",
+        "B": "Chain of custody",
+        "C": "Legal hold",
+        "D": "Preservation"
+      },
+      "answer": "B",
+      "explanation": "Chain of custody is the process of documenting and preserving the integrity of evidence collected during an incident response. It involves recording the details of each person who handled the evidence..."
+    },
+    {
+      "number": 20,
+      "question": "Which of the following is used to add extra complexity before using a one-way data transformation algorithm?",
+      "options": {
+        "A": "Key stretching",
+        "B": "Data masking",
+        "C": "Steganography",
+        "D": "Salting"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Salting is the process of adding extra random data to a password or other data before applying a one-way data transformation algorithm, such as a hash function. Salting increases the complexity and randomness of the input data, making it harder for attackers to guess or crack the original data using precomputed tables or brute force methods."
+    },
+    {
+      "number": 21,
+      "question": "Which of the following describes the reason root cause analysis should be conducted as part of incident response?",
+      "options": {
+        "A": "To gather IoCs for the investigation",
+        "B": "To discover which systems have been affected",
+        "C": "To eradicate any trace of malware on the network",
+        "D": "To prevent future incidents of the same nature"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Root cause analysis is a process of identifying and resolving the underlying factors that led to an incident. By conducting root cause analysis as part of incident response, security professionals can learn from the incident and implement corrective actions to prevent future incidents of the same nature."
+    },
+    {
+      "number": 22,
+      "question": "An administrator finds that all user workstations and servers are displaying a message that is associated with files containing an extension of .ryk. Which of the following types of infections is present on the systems?",
+      "options": {
+        "A": "Virus",
+        "B": "Trojan",
+        "C": "Spyware",
+        "D": "Ransomware"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Ransomware is a type of malware that encrypts the victim's files and demands a ransom for the decryption key. The .ryk extension is associated with a ransomware variant called Ryuk, which targets large organizations and demands high ransoms."
+    },
+    {
+      "number": 23,
+      "question": "A client asked a security company to provide a document outlining the project, the cost, and the completion time frame. Which of the following documents should the company provide to the client?",
+      "options": {
+        "A": "MSA",
+        "B": "SLA",
+        "C": "BPA",
+        "D": "SOW"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "A Statement of Work (SOW) is a document that outlines the project, the cost, and the completion time frame for a security company to provide a service to a client. It specifies the scope, deliverables, milestones, and payment terms of a security project."
+    },
+    {
+      "number": 24,
+      "question": "A security consultant needs secure, remote access to a client environment. Which of the following should the security consultant most likely use to gain access?",
+      "options": {
+        "A": "EAP",
+        "B": "DHCP",
+        "C": "IPSec",
+        "D": "NAT"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "IPSec is a protocol suite that provides secure communication over IP networks. It can be used to create VPNs that encrypt and authenticate data exchange, offering a secure way for a consultant to gain remote access to a client's environment."
+    },
+    {
+      "number": 25,
+      "question": "After reviewing the following vulnerability scanning report: Server:192.168.14.6, Service: Telnet, Port: 23, Protocol: TCP, Status: Open, Severity: High, Vulnerability: Use of an insecure network protocol, a security analyst performs the following test: nmap -p 23 192.168.14.6 -script telnet-encryption. Which of the following would the security analyst conclude for this reported vulnerability?",
+      "options": {
+        "A": "It is a false positive",
+        "B": "A rescan is required",
+        "C": "It is considered noise",
+        "D": "Compensating controls exist"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The result showing that the telnet server supports encryption suggests that the reported vulnerability is a false positive, as the data transmitted between the client and the server can be protected from eavesdropping."
+    },
+    {
+      "number": 26,
+      "question": "A security engineer is implementing FDE for all laptops in an organization. Which of the following are the most important for the engineer to consider as part of the planning process? (Select two)",
+      "options": {
+        "A": "Key escrow",
+        "B": "TPM presence",
+        "C": "Digital signatures",
+        "D": "Data tokenization",
+        "E": "Public key management",
+        "F": "Certificate authority linking"
+      },
+      "answer": [
+        "A",
+        "B"
+      ],
+      "explanation": "For Full Disk Encryption (FDE), key escrow and TPM presence are important. Key escrow allows recovery of encrypted data in case of lost passwords or device failure, and TPM provides secure storage for encryption keys."
+    },
+    {
+      "number": 27,
+      "question": "A company is discarding a classified storage array and hires an outside vendor to complete the disposal. Which of the following should the company request from the vendor?",
+      "options": {
+        "A": "Certification",
+        "B": "Inventory list",
+        "C": "Classification",
+        "D": "Proof of ownership"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The company should request a certification from the vendor confirming that the storage array has been disposed of securely and in compliance with the company's policies and standards. A certification provides evidence of proper disposal methods and prevents unauthorized access or recovery."
+    },
+    {
+      "number": 28,
+      "question": "Which of the following tools can assist with detecting an employee who has accidentally emailed a file containing a customer's PII?",
+      "options": {
+        "A": "SCAP",
+        "B": "Net Flow",
+        "C": "Antivirus",
+        "D": "DLP"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Data Loss Prevention (DLP) tools are designed to detect and prevent the unauthorized transmission or leakage of sensitive data, such as PII. DLP can monitor, filter, and block data in motion (e.g., emails), ensuring sensitive information like customer PII is not sent out accidentally."
+    },
+    {
+      "number": 29,
+      "question": "A security analyst receives alerts about an internal system sending a large amount of unusual DNS queries to systems on the internet over short periods of time during non-business hours. Which of the following is most likely occurring?",
+      "options": {
+        "A": "A worm is propagating across the network",
+        "B": "Data is being exfiltrated",
+        "C": "A logic bomb is deleting data",
+        "D": "Ransomware is encrypting files"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Unusual DNS queries in large volumes during non-business hours are indicative of data exfiltration. Attackers often use DNS queries to stealthily extract data from compromised systems."
+    },
+    {
+      "number": 30,
+      "question": "An organization is leveraging a VPN between its headquarters and a branch location. Which of the following is the VPN protecting?",
+      "options": {
+        "A": "Data in use",
+        "B": "Data in transit",
+        "C": "Geographic restrictions",
+        "D": "Data sovereignty"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "A VPN (Virtual Private Network) protects data in transit by creating a secure, encrypted tunnel for data transmission between locations, such as between a headquarters and a branch office. It ensures the confidentiality and integrity of data as it travels over the internet."
+    },
+    {
+      "number": 31,
+      "question": "An organization's internet-facing website was compromised when an attacker exploited a buffer overflow. Which of the following should the organization deploy to best protect against similar attacks in the future?",
+      "options": {
+        "A": "NGFW",
+        "B": "WAF",
+        "C": "TLS",
+        "D": "SD-WAN"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "To best protect against similar attacks such as buffer overflow in the future, the organization should deploy a Web Application Firewall (WAF). A WAF monitors and filters traffic between a web application and the internet, detecting and blocking common web attacks like buffer overflows."
+    },
+    {
+      "number": 32,
+      "question": "A security analyst and the management team are reviewing the organizational performance of a recent phishing campaign. The user click-through rate exceeded the acceptable risk threshold, and the management team wants to reduce the impact when a user clicks on a link in a phishing message. Which of the following should the analyst do?",
+      "options": {
+        "A": "Place posters around the office to raise awareness of common phishing activities.",
+        "B": "Implement email security filters to prevent phishing emails from being delivered.",
+        "C": "Update the EDR policies to block automatic execution of downloaded programs.",
+        "D": "Create additional training for users to recognize the signs of phishing attempts."
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Updating the Endpoint Detection and Response (EDR) policies to block the automatic execution of downloaded programs is a technical control that can mitigate the risk of phishing, regardless of the user's awareness or behavior."
+    },
+    {
+      "number": 33,
+      "question": "Which of the following automation use cases would best enhance the security posture of an organization by rapidly updating permissions when employees leave a company?",
+      "options": {
+        "A": "Provisioning resources",
+        "B": "Disabling access",
+        "C": "Reviewing change approvals",
+        "D": "Escalating permission requests"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Disabling access is an automation use case that enhances security by rapidly updating permissions when employees leave a company. It involves revoking or suspending the access rights of a user account, preventing unauthorized or malicious use."
+    },
+    {
+      "number": 34,
+      "question": "Which of the following should a systems administrator use to ensure an easy deployment of resources within the cloud provider?",
+      "options": {
+        "A": "Software as a service",
+        "B": "Infrastructure as code",
+        "C": "Internet of Things",
+        "D": "Software-defined networking"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Infrastructure as code (IaC) is a method of using code and automation to manage and provision cloud resources, such as servers, networks, storage, and applications, allowing for easy deployment, scalability, consistency, and repeatability of cloud environments."
+    },
+    {
+      "number": 35,
+      "question": "A U.S.-based cloud-hosting provider wants to expand its data centers to new international locations. Which of the following should the hosting provider consider first?",
+      "options": {
+        "A": "Local data protection regulations",
+        "B": "Risks from hackers residing in other countries",
+        "C": "Impacts to existing contractual obligations",
+        "D": "Time zone differences in log correlation"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The first consideration for a cloud-hosting provider expanding to new international locations should be the local data protection regulations, as different countries or regions may have different laws governing data collection, storage, processing, and transfer."
+    },
+    {
+      "number": 36,
+      "question": "Which of the following exercises should an organization use to improve its incident response process?",
+      "options": {
+        "A": "Tabletop",
+        "B": "Replication",
+        "C": "Failover",
+        "D": "Recovery"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "A tabletop exercise is a simulated scenario that tests the organization's incident response plan and procedures, involving key stakeholders to discuss their roles and actions in response to a hypothetical incident."
+    },
+    {
+      "number": 37,
+      "question": "A newly appointed board member with cybersecurity knowledge wants the board of directors to receive a quarterly report detailing the number of incidents that impacted the organization. The systems administrator is creating a way to present the data to the board of directors. Which of the following should the systems administrator use?",
+      "options": {
+        "A": "Packet captures",
+        "B": "Vulnerability scans",
+        "C": "Metadata",
+        "D": "Dashboard"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "A dashboard is a graphical user interface that provides a visual representation of key performance indicators, metrics, and trends related to security events and incidents, suitable for presenting to the board of directors."
+    },
+    {
+      "number": 38,
+      "question": "A company is expanding its threat surface program and allowing individuals to security test the company's internet-facing application. The company will compensate researchers based on the vulnerabilities discovered. Which of the following best describes the program the company is setting up?",
+      "options": {
+        "A": "Open-source intelligence",
+        "B": "Bug bounty",
+        "C": "Red team",
+        "D": "Penetration testing"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "A bug bounty program rewards security researchers for finding and reporting vulnerabilities in an application or system, incentivizing ethical hacking to improve security."
+    },
+    {
+      "number": 39,
+      "question": "Security controls in a data center are being reviewed to ensure data is properly protected and that human life considerations are included. Which of the following best describes how the controls should be set up?",
+      "options": {
+        "A": "Remote access points should fail closed",
+        "B": "Logging controls should fail open",
+        "C": "Safety controls should fail open",
+        "D": "Logical security controls should fail closed"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Safety controls should fail open, meaning they should remain operational or allow access when a failure or error occurs, to prevent or minimize the impact of a disaster on human life and physical assets."
+    },
+    {
+      "number": 40,
+      "question": "Which of the following can best protect against an employee inadvertently installing malware on a company system?",
+      "options": {
+        "A": "Host-based firewall",
+        "B": "System isolation",
+        "C": "Least privilege",
+        "D": "Application allow list"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "An application allow list specifies which applications are authorized to run on a system, preventing the execution of any unauthorized or malicious software and protecting against inadvertent malware installation."
+    },
+    {
+      "number": 41,
+      "question": "A hacker gained access to a system via a phishing attempt that was a direct result of a user clicking a suspicious link. The link laterally deployed ransomware, which laid dormant for multiple weeks, across the network. Which of the following would have mitigated the spread?",
+      "options": {
+        "A": "IPS",
+        "B": "IDS",
+        "C": "WAF",
+        "D": "UAT"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "An Intrusion Prevention System (IPS) monitors and blocks malicious traffic in real time, which would have mitigated the spread of ransomware by preventing the hacker from accessing the system or stopping the ransomware from communicating with its server."
+    },
+    {
+      "number": 42,
+      "question": "Which of the following is the best way to consistently determine on a daily basis whether security settings on servers have been modified?",
+      "options": {
+        "A": "Automation",
+        "B": "Compliance checklist",
+        "C": "Attestation",
+        "D": "Manual audit"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Automation is the most efficient and consistent way to determine daily if security settings on servers have been modified, as it can monitor, audit, and enforce security settings without relying on manual intervention."
+    },
+    {
+      "number": 43,
+      "question": "Which of the following provides the details about the terms of a test with a third-party penetration tester?",
+      "options": {
+        "A": "Rules of engagement",
+        "B": "Supply chain analysis",
+        "C": "Right to audit clause",
+        "D": "Due diligence"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Rules of engagement outline the scope, objectives, methods, and boundaries of a penetration test, as well as the roles and responsibilities of the testers and clients, ensuring the test is conducted legally, ethically, and professionally."
+    },
+    {
+      "number": 44,
+      "question": "During a security incident, the security operations team identified sustained network traffic from a malicious IP address: 10.1.4.9. A security analyst is creating an inbound firewall rule to block the IP address from accessing the organization's network. Which of the following fulfills this request?",
+      "options": {
+        "A": "access-list inbound deny ig source 0.0.0.0/0 destination 10.1.4.9/32",
+        "B": "access-list inbound deny ig source 10.1.4.9/32 destination 0.0.0.0/0",
+        "C": "access-list inbound permit ig source 10.1.4.9/32 destination 0.0.0.0/0",
+        "D": "access-list inbound permit ig source 0.0.0.0/0 destination 10.1.4.9/32"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "The firewall rule 'access-list inbound deny ig source 10.1.4.9/32 destination 0.0.0.0/0' correctly blocks all inbound traffic from the malicious IP address 10.1.4.9, fulfilling the request to prevent access to the organization's network."
+    },
+    {
+      "number": 45,
+      "question": "An enterprise is trying to limit outbound DNS traffic originating from its internal network. Outbound DNS requests will only be allowed from one device with the IP address 10.50.10.25. Which of the following firewall ACLs will accomplish this goal?",
+      "options": {
+        "A": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53 Access list outbound deny 10.50.10.25 320.0.0.0/0 port 53",
+        "B": "Access list outbound permit 0.0.0.0/0 10.50.10.25 32 port 53 Access list outbound deny 0.0.0.0 00.0.0.0/0 port 53",
+        "C": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53 Access list outbound deny 0.0.0.0/010.50.10.25 32 port 53",
+        "D": "Access list outbound permit 10.50.10.25 32 0.0.0.0/0 port 53 Access list outbound deny 0.0.0.0.0.0.0.0.0/0 port 53"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Option D correctly allows outbound DNS requests only from the device with the IP address 10.50.10.25 and denies all other outbound DNS traffic, effectively limiting DNS traffic as required."
+    },
+    {
+      "number": 46,
+      "question": "Which of the following agreement types defines the time frame in which a vendor needs to respond?",
+      "options": {
+        "A": "SOW",
+        "B": "SLA",
+        "C": "MOA",
+        "D": "MOU"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "A Service Level Agreement (SLA) defines the expectations and responsibilities between a service provider and a customer, including the time frame in which the provider needs to respond to service requests, incidents, or complaints."
+    },
+    {
+      "number": 47,
+      "question": "After a recent vulnerability scan, a security engineer needs to harden the routers within the corporate network. Which of the following is the most appropriate to disable?",
+      "options": {
+        "A": "Console access",
+        "B": "Routing protocols",
+        "C": "VLANs",
+        "D": "Web-based administration"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Disabling web-based administration on routers is an effective hardening measure, as it can pose a security risk if exposed to the internet or if it uses weak authentication or encryption methods."
+    },
+    {
+      "number": 48,
+      "question": "Which of the following actions could a security engineer take to ensure workstations and servers are properly monitored for unauthorized changes and software?",
+      "options": {
+        "A": "Configure all systems to log scheduled tasks.",
+        "B": "Collect and monitor all traffic exiting the network.",
+        "C": "Block traffic based on known malicious signatures.",
+        "D": "Install endpoint management software on all systems."
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Installing endpoint management software on all systems allows for centralized monitoring and control of the configuration, security, and performance of workstations and servers, detecting unauthorized changes and software installations."
+    },
+    {
+      "number": 49,
+      "question": "Which of the following roles, according to the shared responsibility model, is responsible for securing the company's database in an IaaS model for a cloud environment?",
+      "options": {
+        "A": "Client",
+        "B": "Third-party vendor",
+        "C": "Cloud provider",
+        "D": "DBA"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "In an IaaS model, the client is responsible for securing the operating systems, applications, and data, including the company's database, that run on the cloud infrastructure."
+    },
+    {
+      "number": 50,
+      "question": "Which of the following describes the maximum allowance of accepted risk?",
+      "options": {
+        "A": "Risk indicator",
+        "B": "Risk level",
+        "C": "Risk score",
+        "D": "Risk threshold"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Risk threshold refers to the maximum amount of risk an organization is willing to accept for a given activity or decision, also known as risk appetite or tolerance."
+    },
+    {
+      "number": 51,
+      "question": "A company's end users are reporting that they are unable to reach external websites. After reviewing the performance data for the DNS servers, the analyst discovers that the CPU, disk, and memory usage are minimal, but the network interface is flooded with inbound traffic. Network logs show only a small number of DNS queries sent to this server. Which of the following best describes what the security analyst is seeing?",
+      "options": {
+        "A": "Concurrent session usage",
+        "B": "Secure DNS cryptographic downgrade",
+        "C": "On-path resource consumption",
+        "D": "Reflected denial of service"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "This scenario describes a reflected denial of service (RDoS) attack, where the DNS server is overwhelmed with spoofed traffic that appears to come from legitimate sources."
+    },
+    {
+      "number": 52,
+      "question": "A company is planning a disaster recovery site and needs to ensure that a single natural disaster would not result in the complete loss of regulated backup data. Which of the following should the company consider?",
+      "options": {
+        "A": "Geographic dispersion",
+        "B": "Platform diversity",
+        "C": "Hot site",
+        "D": "Load balancing"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Geographic dispersion involves storing backup data in different locations far enough apart to minimize the risk of a single natural disaster affecting both sites, thus ensuring the availability of backup data."
+    },
+    {
+      "number": 53,
+      "question": "An organization disabled unneeded services and placed a firewall in front of a business-critical legacy system. Which of the following best describes the actions taken by the organization?",
+      "options": {
+        "A": "Exception",
+        "B": "Segmentation",
+        "C": "Risk transfer",
+        "D": "Compensating controls"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "The actions taken by the organization are compensating controls, implemented to mitigate risks when primary controls are not feasible, cost-effective, or sufficient."
+    },
+    {
+      "number": 54,
+      "question": "A company's legal department drafted sensitive documents in a SaaS application and wants to ensure the documents cannot be accessed by individuals in high-risk countries. Which of the following is the most effective way to limit this access?",
+      "options": {
+        "A": "Data masking",
+        "B": "Encryption",
+        "C": "Geolocation policy",
+        "D": "Data sovereignty regulation"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Implementing a geolocation policy restricts access to data or resources based on the geographic location of the user or device, effectively preventing access from high-risk countries."
+    },
+    {
+      "number": 55,
+      "question": "Which of the following has been implemented when a host-based firewall on a legacy Linux system allows connections from only specific internal IP addresses?",
+      "options": {
+        "A": "Compensating control",
+        "B": "Network segmentation",
+        "C": "Transfer of risk",
+        "D": "SNMP traps"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Implementing a host-based firewall that restricts connections to specific internal IP addresses is an example of a compensating control, designed to mitigate the risk associated with potential vulnerabilities in the legacy system."
+    },
+    {
+      "number": 56,
+      "question": "After a security awareness training session, a user called the IT help desk and reported a suspicious call. The suspicious caller stated that the Chief Financial Officer wanted credit card information in order to close an invoice. Which of the following topics did the user recognize from the training?",
+      "options": {
+        "A": "Insider threat",
+        "B": "Email phishing",
+        "C": "Social engineering",
+        "D": "Executive whaling"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "The user recognized a social engineering attempt, where the caller tried to manipulate them into divulging confidential information by pretending to be someone in authority or creating a false sense of urgency."
+    },
+    {
+      "number": 57,
+      "question": "A systems administrator is looking for a low-cost application-hosting solution that is cloud-based. Which of the following meets these requirements?",
+      "options": {
+        "A": "Serverless framework",
+        "B": "Type 1 hypervisor",
+        "C": "SD-WAN",
+        "D": "SDN"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "A serverless framework is a cloud-based solution that allows developers to build and run applications without thinking about servers, offering a low-cost and efficient way to host applications."
+    },
+    {
+      "number": 58,
+      "question": "Which of the following is the most likely to be included as an element of communication in a security awareness program?",
+      "options": {
+        "A": "Reporting phishing attempts or other suspicious activities",
+        "B": "Detecting insider threats using anomalous behavior recognition",
+        "C": "Verifying information when modifying wire transfer data",
+        "D": "Performing social engineering as part of third-party penetration testing"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Reporting phishing attempts and other suspicious activities is a key element of communication in a security awareness program, aimed at educating employees about recognizing and responding to security threats."
+    },
+    {
+      "number": 59,
+      "question": "A security manager created new documentation to use in response to various types of security incidents. Which of the following is the next step the manager should take?",
+      "options": {
+        "A": "Set the maximum data retention policy",
+        "B": "Securely store the documents on an air-gapped network",
+        "C": "Review the documents' data classification policy",
+        "D": "Conduct a tabletop exercise with the team"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Conducting a tabletop exercise with the team is the next step to take after creating new incident response documentation, as it helps validate the effectiveness of the documentation and ensures the team is prepared for various types of security incidents."
+    },
+    {
+      "number": 60,
+      "question": "A security analyst locates a potentially malicious video file on a server and needs to identify both the creation date and the file's creator. Which of the following actions would most likely give the security analyst the information required?",
+      "options": {
+        "A": "Obtain the file's SHA-256 hash",
+        "B": "Use hexdump on the file's contents",
+        "C": "Check endpoint logs",
+        "D": "Query the file's metadata"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Querying the file's metadata is the most likely action to give the security analyst the required information, as metadata often contains details about the file's creation date and creator."
+    },
+    {
+      "number": 61,
+      "question": "An administrator assists the legal and compliance team with ensuring information about customer transactions is archived for the proper time period. Which of the following data policies is the administrator carrying out?",
+      "options": {
+        "A": "Compromise",
+        "B": "Retention",
+        "C": "Analysis",
+        "D": "Transfer",
+        "E": "Inventory"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "The administrator is carrying out a data retention policy, which defines how long data should be stored and when it should be deleted or archived, ensuring compliance with legal and regulatory requirements."
+    },
+    {
+      "number": 62,
+      "question": "Which of the following threat actors is the most likely to be hired by a foreign government to attack critical systems located in other countries?",
+      "options": {
+        "A": "Hacktivist",
+        "B": "Whistleblower",
+        "C": "Organized crime",
+        "D": "Unskilled attacker"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Organized crime groups, motivated by financial gain and operating across national borders, are likely to be hired by foreign governments to conduct sophisticated and persistent cyberattacks on critical systems in other countries."
+    },
+    {
+      "number": 64,
+      "question": "A company is concerned about weather events causing damage to the server room and downtime. Which of the following should the company consider?",
+      "options": {
+        "A": "Clustering servers",
+        "B": "Geographic dispersion",
+        "C": "Load balancers",
+        "D": "Off-site backups"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Geographic dispersion, involving distributing servers or data centers across different locations, can mitigate the risk of weather events causing damage and downtime, and enhance disaster recovery and business continuity."
+    },
+    {
+      "number": 65,
+      "question": "A security team is reviewing the findings in a report that was delivered after a third party performed a penetration test. One of the findings indicated that a web application form field is vulnerable to cross-site scripting. Which of the following application security techniques should the security analyst recommend the developer implement to prevent this vulnerability?",
+      "options": {
+        "A": "Secure cookies",
+        "B": "Version control",
+        "C": "Input validation",
+        "D": "Code signing"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Input validation, which checks user input for any malicious or unexpected data, is recommended to prevent cross-site scripting vulnerabilities in web applications."
+    },
+    {
+      "number": 66,
+      "question": "An organization recently updated its security policy to include the following statement: Regular expressions are included in source code to remove special characters such as $, |, ;, &, `, and ? from variables set by forms in a web application. Which of the following best explains the security technique the organization adopted by making this addition to the policy?",
+      "options": {
+        "A": "Identify embedded keys",
+        "B": "Code debugging",
+        "C": "Input validation",
+        "D": "Static code analysis"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "By including regular expressions in source code to remove special characters, the organization adopted input validation as a security technique, which helps to prevent attacks such as injection and cross-site scripting by filtering out harmful input."
+    },
+    {
+      "number": 67,
+      "question": "An administrator is reviewing a single server's security logs and discovers the following: multiple failed login attempts in a short amount of time. Which of the following best describes what the administrator is seeing?",
+      "options": {
+        "A": "Brute-force attack",
+        "B": "Password spraying",
+        "C": "Dictionary attack",
+        "D": "Forgotten password by the user"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The log file showing multiple failed login attempts in a short amount of time is characteristic of a brute-force attack, where the attacker systematically tries all possible password combinations."
+    },
+    {
+      "number": 68,
+      "question": "An analyst is evaluating the implementation of Zero Trust principles within the data plane. Which of the following would be most relevant for the analyst to evaluate?",
+      "options": {
+        "A": "Secured zones",
+        "B": "Subject role",
+        "C": "Adaptive identity",
+        "D": "Threat scope reduction"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "In implementing Zero Trust principles within the data plane, the most relevant aspect to evaluate is threat scope reduction, which involves segmenting access to reduce the scope and impact of potential threats."
+    },
+    {
+      "number": 69,
+      "question": "Which of the following is the best reason to complete an audit in a banking environment?",
+      "options": {
+        "A": "Regulatory requirement",
+        "B": "Organizational change",
+        "C": "Self-assessment requirement",
+        "D": "Service-level requirement"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "In a banking environment, audits are often required due to regulatory requirements to ensure compliance with laws, standards, and policies related to security, privacy, and financial reporting."
+    },
+    {
+      "number": 70,
+      "question": "A systems administrator works for a local hospital and needs to ensure patient data is protected and secure. Which of the following data classifications should be used to secure patient data?",
+      "options": {
+        "A": "Private",
+        "B": "Critical",
+        "C": "Sensitive",
+        "D": "Public"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Patient data should be classified as 'Sensitive' due to its personal and health information content, requiring it to be used only by authorized personnel and secured from unauthorized access, disclosure, or modification."
+    },
+    {
+      "number": 71,
+      "question": "A company is working with a vendor to perform a penetration test. Which of the following includes an estimate about the number of hours required to complete the engagement?",
+      "options": {
+        "A": "SOW",
+        "B": "BPA",
+        "C": "SLA",
+        "D": "NDA"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "A Statement of Work (SOW) typically includes details like the scope, objectives, deliverables, timeline, and costs of a project, including an estimate of the number of hours required to complete the engagement."
+    },
+    {
+      "number": 72,
+      "question": "A penetration tester begins an engagement by performing port and service scans against the client environment according to the rules of engagement. Which of the following reconnaissance types is the tester performing?",
+      "options": {
+        "A": "Active",
+        "B": "Passive",
+        "C": "Defensive",
+        "D": "Offensive"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The tester is performing active reconnaissance, which involves sending packets or requests to a target and analyzing the responses to gather information like open ports, services, and vulnerabilities."
+    },
+    {
+      "number": 73,
+      "question": "A network manager wants to protect the company's VPN by implementing multifactor authentication that uses: something you know, something you have, and something you are. Which of the following would accomplish the manager's goal?",
+      "options": {
+        "A": "Domain name, PKI, GeoIP lookup",
+        "B": "VPN IP address, company ID, facial structure",
+        "C": "Password, authentication token, thumbprint",
+        "D": "Company URL, TLS certificate, home address"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Password (something you know), authentication token (something you have), and thumbprint (something you are) collectively accomplish the goal of implementing multifactor authentication."
+    },
+    {
+      "number": 74,
+      "question": "While troubleshooting a firewall configuration, a technician determines that a 'deny any' policy should be added to the bottom of the ACL. The new policy causes several company servers to become unreachable. Which of the following actions would prevent this issue?",
+      "options": {
+        "A": "Documenting the new policy in a change request and submitting the request to change management",
+        "B": "Testing the policy in a non-production environment before enabling the policy in the production network",
+        "C": "Disabling any intrusion prevention signatures on the 'deny any' policy prior to enabling the new policy",
+        "D": "Including an 'allow any' policy above the 'deny any' policy"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Testing the new firewall policy in a non-production environment before enabling it in the production network is the best action to prevent issues like making servers unreachable, as it allows for identifying and resolving potential conflicts."
+    },
+    {
+      "number": 75,
+      "question": "Which of the following is the most likely to be used to document risks, responsible parties, and thresholds?",
+      "options": {
+        "A": "Risk tolerance",
+        "B": "Risk transfer",
+        "C": "Risk register",
+        "D": "Risk analysis"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "A risk register is a tool used to document risks, responsible parties, and thresholds. It records and tracks the risks associated with a project, system, or organization and includes information such as risk description, risk owner, risk probability, and risk impact."
+    },
+    {
+      "number": 76,
+      "question": "An engineer needs to find a solution that creates an added layer of security by preventing unauthorized access to internal company resources. Which of the following would be the best solution?",
+      "options": {
+        "A": "RDP server",
+        "B": "Jump server",
+        "C": "Proxy server",
+        "D": "Hypervisor"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "A jump server, also known as a bastion host or jump box, acts as an intermediary between users and internal resources, providing an added layer of security by controlling and monitoring access."
+    },
+    {
+      "number": 77,
+      "question": "A technician needs to apply a high-priority patch to a production system. Which of the following steps should be taken first?",
+      "options": {
+        "A": "Air gap the system",
+        "B": "Move the system to a different network segment",
+        "C": "Create a change control request",
+        "D": "Apply the patch to the system"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Before applying a high-priority patch to a production system, the first step should be to create a change control request. This ensures that the change is authorized, documented, tested, and communicated appropriately."
+    },
+    {
+      "number": 78,
+      "question": "A company requires hard drives to be securely wiped before sending decommissioned systems to recycling. Which of the following best describes this policy?",
+      "options": {
+        "A": "Enumeration",
+        "B": "Sanitization",
+        "C": "Destruction",
+        "D": "Inventory"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Sanitization refers to the process of securely wiping or removing sensitive data from storage devices before disposal or reuse. This ensures that confidential data cannot be retrieved from the recycled devices."
+    },
+    {
+      "number": 79,
+      "question": "An organization is struggling with scaling issues on its VPN concentrator and internet circuit due to remote work. The organization is looking for a software solution to reduce traffic on the VPN and internet circuit, while still providing encrypted tunnel access to the data center and monitoring remote employee internet traffic. Which of the following will help achieve these objectives?",
+      "options": {
+        "A": "Deploying a SASE solution to remote employees",
+        "B": "Building a load-balanced VPN solution with redundant internet",
+        "C": "Purchasing a low-cost SD-WAN solution for VPN traffic",
+        "D": "Using a cloud provider to create additional VPN concentrators"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Deploying a Secure Access Service Edge (SASE) solution to remote employees can help reduce VPN and internet circuit traffic by providing optimized and secure access to data center resources and cloud applications, while also monitoring remote employee internet traffic."
+    },
+    {
+      "number": 80,
+      "question": "A company decided to reduce the cost of its annual cyber insurance policy by removing the coverage for ransomware attacks. Which of the following analysis elements did the company most likely use in making this decision?",
+      "options": {
+        "A": "IMTTR",
+        "B": "RTO",
+        "C": "ARO",
+        "D": "MTBF"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "The company likely used the Annualized Rate of Occurrence (ARO) to make the decision. ARO measures the frequency or likelihood of an event happening in a year, helping the company estimate the potential loss or impact of ransomware attacks compared to the cost of insurance."
+    },
+    {
+      "number": 81,
+      "question": "Which of the following enables the use of an input field to run commands that can view or manipulate data?",
+      "options": {
+        "A": "Cross-site scripting",
+        "B": "Side loading",
+        "C": "Buffer overflow",
+        "D": "SQL injection"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "SQL injection is a type of attack that enables the use of an input field to run commands that can view or manipulate data in a database."
+    },
+    {
+      "number": 82,
+      "question": "A company's web filter is configured to scan the URL for strings and deny access when matches are found. Which of the following search strings should an analyst employ to prohibit access to non-encrypted websites?",
+      "options": {
+        "A": "encryption=off",
+        "B": "http://",
+        "C": "www.*.com",
+        "D": ":443"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "To prohibit access to non-encrypted websites, an analyst should employ the search string 'http://', which is the protocol of non-encrypted web traffic."
+    },
+    {
+      "number": 83,
+      "question": "Which of the following is required for an organization to properly manage its restore process in the event of system failure?",
+      "options": {
+        "A": "IRP",
+        "B": "DRP",
+        "C": "RPO",
+        "D": "SDLC"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "A disaster recovery plan (DRP) is essential for an organization to properly manage its restore process in the event of system failure."
+    },
+    {
+      "number": 84,
+      "question": "A security analyst reviews domain activity logs and notices multiple failed login attempts for a user. Which of the following is the best explanation for this?",
+      "options": {
+        "A": "The user's account has been locked out.",
+        "B": "A keylogger is installed on the user's workstation.",
+        "C": "An attacker is attempting to brute force the user's account.",
+        "D": "Ransomware has been deployed in the domain."
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Multiple failed login attempts in a short period of time suggest that an attacker is attempting to brute force the user's account."
+    },
+    {
+      "number": 85,
+      "question": "Which of the following is the most likely outcome if a large bank fails an internal PCI DSS compliance assessment?",
+      "options": {
+        "A": "Fines",
+        "B": "Audit findings",
+        "C": "Sanctions",
+        "D": "Reputation damage"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Failing an internal PCI DSS compliance assessment could lead to fines imposed by payment card brands."
+    },
+    {
+      "number": 86,
+      "question": "A business received a grant to migrate its infrastructure to an off-premises solution. Which of the following should be considered first?",
+      "options": {
+        "A": "Security of cloud providers",
+        "B": "Cost of implementation",
+        "C": "Ability of engineers",
+        "D": "Security of architecture"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "When migrating to an off-premises solution, the security of the architecture should be the primary consideration."
+    },
+    {
+      "number": 87,
+      "question": "An administrator discovers that a patch transfer is inhibited by access controls. Which of the following is most likely causing this?",
+      "options": {
+        "A": "Attribute-based",
+        "B": "Time of day",
+        "C": "Role-based",
+        "D": "Least privilege"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "The principle of least privilege, which restricts users and processes to minimum access levels necessary, is likely inhibiting the patch transfer."
+    },
+    {
+      "number": 88,
+      "question": "A systems administrator receives an alert from a file integrity monitoring tool about a change in the hash of the cmd.exe file. What most likely occurred?",
+      "options": {
+        "A": "The end user changed the file permissions.",
+        "B": "A cryptographic collision was detected.",
+        "C": "A snapshot of the file system was taken.",
+        "D": "A rootkit was deployed."
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "The change in the hash of cmd.exe file, a critical system file, without any recent patches suggests the deployment of a rootkit."
+    },
+    {
+      "number": 89,
+      "question": "Which best practice gives administrators a set period to perform changes to an operational system to ensure availability and minimize business impacts?",
+      "options": {
+        "A": "Impact analysis",
+        "B": "Scheduled downtime",
+        "C": "Backout plan",
+        "D": "Change management boards"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Scheduled downtime is planned to allow administrators to make changes to an operational system while minimizing impact on business operations."
+    },
+    {
+      "number": 90,
+      "question": "A company prevented direct access to database servers from DB administrators' workstations. Which of the following should be used to access the servers?",
+      "options": {
+        "A": "Jump server",
+        "B": "RADIUS",
+        "C": "HSM",
+        "D": "Load balancer"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "A jump server acts as an intermediary for secure access to servers in a different network segment, like the database servers in this scenario."
+    },
+    {
+      "number": 91,
+      "question": "An administrator discovers encrypted files on a database server accessed by a domain user. Which of the following best describes the attack that occurred?",
+      "options": {
+        "A": "Insider threat",
+        "B": "Social engineering",
+        "C": "Watering-hole",
+        "D": "Unauthorized attacker"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The encryption of files on a database server by a domain user indicates an insider threat, where someone with legitimate access misuses their privileges."
+    },
+    {
+      "number": 92,
+      "question": "What is the most common data loss path for an air-gapped network?",
+      "options": {
+        "A": "Bastion host",
+        "B": "Unsecured Bluetooth",
+        "C": "Unpatched OS",
+        "D": "Removable devices"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "For air-gapped networks, removable devices are the most common path for data loss, as they can transfer data across the physical gap."
+    },
+    {
+      "number": 93,
+      "question": "A sysadmin is creating a script for account creation to save time and prevent errors. Which concept does this represent?",
+      "options": {
+        "A": "Off-the-shelf software",
+        "B": "Orchestration",
+        "C": "Baseline",
+        "D": "Policy enforcement"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Orchestration, automating multiple tasks across systems, applies here, as it streamlines account creation, enhancing efficiency and accuracy."
+    },
+    {
+      "number": 94,
+      "question": "What method is best for securing credit card data, allowing only the last four numbers to be visible?",
+      "options": {
+        "A": "Encryption",
+        "B": "Hashing",
+        "C": "Masking",
+        "D": "Tokenization"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Masking is ideal for partially obscuring credit card data while leaving the last four digits visible for identification purposes."
+    },
+    {
+      "number": 95,
+      "question": "To limit outbound DNS traffic to one device in a network, which firewall ACL should be used?",
+      "options": {
+        "A": "Access list option A",
+        "B": "Access list option B",
+        "C": "Access list option C",
+        "D": "Access list option D"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "The correct firewall ACL should allow only the specified device (10.50.10.25) to send DNS requests while denying others."
+    },
+    {
+      "number": 96,
+      "question": "In a scenario where the infrastructure team secures data, what role does the customer play?",
+      "options": {
+        "A": "Processor",
+        "B": "Custodian",
+        "C": "Subject",
+        "D": "Owner"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "In data security contexts, the customer, whose data is collected and processed, is considered the 'Subject' of the data."
+    },
+    {
+      "number": 97,
+      "question": "What should a software development manager implement to ensure the authenticity of the company's code?",
+      "options": {
+        "A": "Testing input validation",
+        "B": "Code signing",
+        "C": "Static code analysis",
+        "D": "Secure cookies"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Code signing authenticates the source and verifies the integrity of the code, making it the best option for ensuring code authenticity."
+    },
+    {
+      "number": 98,
+      "question": "What type of security control is an access control vestibule where visitors check in with a photo ID?",
+      "options": {
+        "A": "Physical",
+        "B": "Managerial",
+        "C": "Technical",
+        "D": "Operational"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "An access control vestibule used for verifying identities with photo IDs is a form of physical security control."
+    },
+    {
+      "number": 99,
+      "question": "What is being set up if the requirements are a secure zone, company-wide access control, and reduced threat scope?",
+      "options": {
+        "A": "Zero Trust",
+        "B": "AAA",
+        "C": "Non-repudiation",
+        "D": "CIA"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Setting up a Zero Trust model involves creating a secure zone with strict access controls and minimizing the threat landscape."
+    },
+    {
+      "number": 100,
+      "question": "An employee clicked a link in a suspicious email and entered login info. What type of attack is this?",
+      "options": {
+        "A": "Brand impersonation",
+        "B": "Pretexting",
+        "C": "Typosquatting",
+        "D": "Phishing"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "This scenario describes a phishing attack, where the employee was tricked into providing login information through a deceptive email."
+    },
+    {
+      "number": 101,
+      "question": "Which of the following is used to quantitatively measure the criticality of a vulnerability?",
+      "options": {
+        "A": "CVE",
+        "B": "CVSS",
+        "C": "CIA",
+        "D": "CERT"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "CVSS, the Common Vulnerability Scoring System, provides a standardized method to assess and communicate the severity of vulnerabilities."
+    },
+    {
+      "number": 102,
+      "question": "Which of the following is used to protect a computer from viruses, malware, and Trojans being installed and moving laterally across the network?",
+      "options": {
+        "A": "IDS",
+        "B": "ACL",
+        "C": "EDR",
+        "D": "NAC"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Endpoint Detection and Response (EDR) monitors and analyzes endpoint activities, helping to detect and prevent malicious software."
+    },
+    {
+      "number": 103,
+      "question": "A company purchased cyber insurance to address items listed on the risk register. Which of the following strategies does this represent?",
+      "options": {
+        "A": "Accept",
+        "B": "Transfer",
+        "C": "Mitigate",
+        "D": "Avoid"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Purchasing cyber insurance to address risk register items represents a risk transfer strategy."
+    },
+    {
+      "number": 104,
+      "question": "An attacker posing as the Chief Executive Officer calls an employee and instructs the employee to buy gift cards. Which of the following techniques is the attacker using?",
+      "options": {
+        "A": "Smishing",
+        "B": "Disinformation",
+        "C": "Impersonating",
+        "D": "Whaling"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "This is a 'Whaling' attack, a specific type of phishing targeting high-profile individuals or exploiting their identity."
+    },
+    {
+      "number": 105,
+      "question": "A company is planning to set up a SIEM system and assign an analyst to review the logs on a weekly basis. Which of the following types of controls is the company setting up?",
+      "options": {
+        "A": "Corrective",
+        "B": "Preventive",
+        "C": "Detective",
+        "D": "Deterrent"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Setting up a SIEM system for log review is a 'Detective' control, as it helps in identifying security incidents after they occur."
+    },
+    {
+      "number": 106,
+      "question": "A bank insists all of its vendors must prevent data loss on stolen laptops. Which of the following strategies is the bank requiring?",
+      "options": {
+        "A": "Encryption at rest",
+        "B": "Masking",
+        "C": "Data classification",
+        "D": "Permission restrictions"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "The bank is requiring 'Encryption at rest' to protect data on stolen laptops."
+    },
+    {
+      "number": 107,
+      "question": "Which of the following would be the best way to handle a critical business application that is running on a legacy server?",
+      "options": {
+        "A": "Segmentation",
+        "B": "Isolation",
+        "C": "Hardening",
+        "D": "Decommissioning"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Hardening a legacy server is the most effective way to protect a critical business application. This process involves applying security measures to reduce vulnerabilities, such as updating software, configuring firewalls, and enabling encryption."
+    },
+    {
+      "number": 108,
+      "question": "Which of the following allows for the attribution of messages to individuals?",
+      "options": {
+        "A": "Adaptive identity",
+        "B": "Non-repudiation",
+        "C": "Authentication",
+        "D": "Access logs"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Non-repudiation ensures the authenticity of a message or document and prevents the sender from denying their involvement. It often uses cryptographic techniques like digital signatures."
+    },
+    {
+      "number": 109,
+      "question": "A technician wants to improve the situational and environmental awareness of existing users as they transition from remote to in-office work. Which of the following is the best option?",
+      "options": {
+        "A": "Send out periodic security reminders.",
+        "B": "Update the content of new hire documentation.",
+        "C": "Modify the content of recurring training.",
+        "D": "Implement a phishing campaign"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Modifying the content of recurring training is effective for improving situational and environmental awareness. It ensures that existing users are updated on current security landscapes and expectations."
+    },
+    {
+      "number": 110,
+      "question": "A systems administrator is changing the password policy within an enterprise environment and wants this update implemented on all systems as quickly as possible. Which of the following operating system security measures will the administrator most likely use?",
+      "options": {
+        "A": "Deploying PowerShell scripts",
+        "B": "Pushing GPO update",
+        "C": "Enabling PAP",
+        "D": "Updating EDR profiles"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Pushing a Group Policy Object (GPO) update is the most efficient way to enforce a new password policy across all systems in an enterprise environment. It allows for centralized management and quick implementation."
+    },
+    {
+      "number": 111,
+      "question": "An administrator notices that several users are logging in from suspicious IP addresses. After speaking with the users, the administrator determines that the employees were not logging in from those IP addresses and resets the affected users' passwords. Which of the following should the administrator implement to prevent this type of attack from succeeding in the future?",
+      "options": {
+        "A": "Multifactor authentication",
+        "B": "Permissions assignment",
+        "C": "Access management",
+        "D": "Password complexity"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Implementing multifactor authentication is crucial for enhancing security. It adds an extra layer of defense by requiring more than one method of verification, thus preventing unauthorized access even if passwords are compromised."
+    },
+    {
+      "number": 112,
+      "question": "Which of the following would be best suited for constantly changing environments?",
+      "options": {
+        "A": "RTOS",
+        "B": "Containers",
+        "C": "Embedded systems",
+        "D": "SCADA"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "Containers are ideal for constantly changing environments due to their lightweight nature, portability, and ability to isolate applications. They allow for quick and easy deployment and updates."
+    },
+    {
+      "number": 113,
+      "question": "Which of the following would be the best ways to ensure only authorized personnel can access a secure facility? (Select two).",
+      "options": {
+        "A": "Fencing",
+        "B": "Video surveillance",
+        "C": "Badge access",
+        "D": "Access control vestibule",
+        "E": "Sign-in sheet",
+        "F": "Sensor"
+      },
+      "answer": [
+        "C",
+        "D"
+      ],
+      "explanation": "Badge access and access control vestibules are effective physical security measures. Badge access controls entry based on validated credentials, while access control vestibules prevent tailgating and ensure secure entry."
+    },
+    {
+      "number": 114,
+      "question": "An organization is building a new backup data center with cost-benefit as the primary requirement and RTO and RPO values around two days. Which of the following types of sites is the best for this scenario?",
+      "options": {
+        "A": "Real-time recovery",
+        "B": "Hot",
+        "C": "Cold",
+        "D": "Warm"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "A cold site is the most suitable for a backup data center with cost-benefit as a primary concern and RTO and RPO values of about two days. It provides the necessary infrastructure without the costs associated with pre-installed hardware or software."
+    },
+    {
+      "number": 115,
+      "question": "A company is required to use certified hardware when building networks. Which of the following best addresses the risks associated with procuring counterfeit hardware?",
+      "options": {
+        "A": "A thorough analysis of the supply chain",
+        "B": "A legally enforceable corporate acquisition policy",
+        "C": "A right to audit clause in vendor contracts and SOWs",
+        "D": "An in-depth penetration test of all suppliers and vendors"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Conducting a thorough analysis of the supply chain is crucial to address the risks associated with procuring counterfeit hardware. This analysis includes verifying the origin, authenticity, and integrity of the hardware, and identifying potential sources of counterfeit or tampered products. It involves steps like establishing a trusted relationship with the OEM and authorized resellers, requesting documentation and certification, inspecting the hardware for tampering signs, testing for functionality and security, implementing a tracking system, and reporting suspicious hardware. This proactive approach helps ensure the quality, performance, safety, and reliability of the network hardware."
+    },
+    {
+      "number": 116,
+      "question": "Users at a company are reporting they are unable to access the URL for a new retail website because it is flagged as gambling and is being blocked. Which of the following changes would allow users to access the site?",
+      "options": {
+        "A": "Creating a firewall rule to allow HTTPS traffic",
+        "B": "Configuring the IPS to allow shopping",
+        "C": "Tuning the DLP rule that detects credit card data",
+        "D": "Updating the categorization in the content filter"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Updating the categorization in the content filter would correct the misclassification of the retail website and allow users to access it. Content filters block or allow web content based on categories, and a reclassification would resolve this issue."
+    },
+    {
+      "number": 117,
+      "question": "Which of the following must be considered when designing a high-availability network? (Choose two).",
+      "options": {
+        "A": "Ease of recovery",
+        "B": "Ability to patch",
+        "C": "Physical isolation",
+        "D": "Responsiveness",
+        "E": "Attack surface",
+        "F": "Extensible authentication"
+      },
+      "answer": [
+        "A",
+        "E"
+      ],
+      "explanation": "In designing a high-availability network, 'Ease of recovery' and 'Attack surface' are critical. Ease of recovery ensures swift restoration of functionality, and minimizing the attack surface reduces vulnerability to threats."
+    },
+    {
+      "number": 118,
+      "question": "A security practitioner completes a vulnerability assessment on a company's network and finds several vulnerabilities, which the operations team remediates. Which of the following should be done next?",
+      "options": {
+        "A": "Conduct an audit",
+        "B": "Initiate a penetration test",
+        "C": "Rescan the network",
+        "D": "Submit a report"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "After remediating vulnerabilities identified in a vulnerability assessment, 'Rescanning the network' is essential to ensure that the vulnerabilities have been effectively addressed and to check for any new vulnerabilities."
+    },
+    {
+      "number": 119,
+      "question": "A systems administrator wants to prevent users from being able to access data based on their responsibilities. The administrator also wants to apply the required access structure via a simplified format. Which of the following should the administrator apply to the site recovery resource group?",
+      "options": {
+        "A": "RBAC",
+        "B": "ACL",
+        "C": "SAML",
+        "D": "GPO"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "Role-Based Access Control (RBAC) is the most suitable for managing access based on user roles and responsibilities in a simplified format. It allows assigning roles with specific access rights, streamlining the process of access control."
+    },
+    {
+      "number": 120,
+      "question": "Which of the following practices would be best to prevent an insider from introducing malicious code into a company's development process?",
+      "options": {
+        "A": "Code scanning for vulnerabilities",
+        "B": "Open-source component usage",
+        "C": "Quality assurance testing",
+        "D": "Peer review and approval"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Peer review and approval is an effective practice to prevent insiders from introducing malicious code. It involves having code reviewed by peers or experts, which can help detect and prevent malicious code, errors, and vulnerabilities."
+    },
+    {
+      "number": 121,
+      "question": "A security administrator would like to protect data on employees' laptops. Which of the following encryption techniques should the security administrator use?",
+      "options": {
+        "A": "Partition",
+        "B": "Asymmetric",
+        "C": "Full disk",
+        "D": "Database"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "Full disk encryption (FDE) is the most suitable technique to protect data on employees' laptops. FDE encrypts the entire hard drive, including the operating system, applications, and files, providing comprehensive protection."
+    },
+    {
+      "number": 122,
+      "question": "Which of the following involves an attempt to take advantage of database misconfigurations?",
+      "options": {
+        "A": "Buffer overflow",
+        "B": "SQL injection",
+        "C": "VM escape",
+        "D": "Memory injection"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "SQL injection exploits database misconfigurations or vulnerabilities in application code interacting with databases. Attackers inject malicious SQL statements to execute unauthorized commands or access data."
+    },
+    {
+      "number": 123,
+      "question": "During the onboarding process, an employee needs to create a password for an intranet account. The password must include ten characters, numbers, and letters, and two special characters. Once the password is created, the company will grant the employee access to other company-owned websites based on the intranet profile. Which of the following access management concepts is the company most likely using to safeguard intranet accounts and grant access to multiple sites based on a user's intranet account? (Select two).",
+      "options": {
+        "A": "Federation",
+        "B": "Identity proofing",
+        "C": "Password complexity",
+        "D": "Default password changes",
+        "E": "Password manager",
+        "F": "Open authentication"
+      },
+      "answer": [
+        "A",
+        "C"
+      ],
+      "explanation": "The company is using 'Federation' to allow single sign-on across multiple company-owned websites and 'Password complexity' to ensure strong, secure passwords for intranet accounts."
+    },
+    {
+      "number": 125,
+      "question": "A company is planning to set up a SIEM system and assign an analyst to review the logs on a weekly basis. Which of the following types of controls is the company setting up?",
+      "options": {
+        "A": "Corrective",
+        "B": "Preventive",
+        "C": "Detective",
+        "D": "Deterrent"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "The company is setting up a detective control by planning to use a SIEM (Security Information and Event Management) system and assigning an analyst to review logs. Detective controls are designed to detect and alert organizations to potential security incidents. In this case, the SIEM system will collect, correlate, and analyze security data from various sources, and the analyst's review will help in identifying and responding to security incidents. Unlike preventive or deterrent controls that aim to stop incidents before they occur, detective controls are focused on identifying and mitigating incidents that have already happened."
+    },
+    {
+      "number": 126,
+      "question": "Which of the following should a security administrator adhere to when setting up a new set of firewall rules?",
+      "options": {
+        "A": "Disaster recovery plan",
+        "B": "Incident response procedure",
+        "C": "Business continuity plan",
+        "D": "Change management procedure"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "When setting up a new set of firewall rules, a security administrator should adhere to the change management procedure. Change management involves a systematic approach to managing all changes made to a product or system. It ensures that the changes are made in a controlled and coordinated manner to minimize any negative impact on services and security. Setting up new firewall rules can significantly impact network security and operations, and therefore, should be managed through an established change management process to ensure that all risks are assessed, and the changes are tested and documented properly."
+    },
+    {
+      "number": 127,
+      "question": "Which of the following security concepts is the best reason for permissions on a human resources fileshare to follow the principle of least privilege?",
+      "options": {
+        "A": "Integrity",
+        "B": "Availability",
+        "C": "Confidentiality",
+        "D": "Non-repudiation"
+      },
+      "answer": [
+        "C"
+      ],
+      "explanation": "The principle of least privilege is closely aligned with the concept of confidentiality. In the context of permissions on a human resources fileshare, applying the principle of least privilege ensures that access to sensitive information is strictly limited to those who need it to perform their job functions. This minimizes the risk of unauthorized access and protects the confidentiality of the data stored on the fileshare. It's about providing only the necessary access rights to users, which helps in preventing data breaches and maintaining the privacy of sensitive information."
+    },
+    {
+      "number": 128,
+      "question": "An enterprise has been experiencing attacks focused on exploiting vulnerabilities in older browser versions with well-known exploits. Which of the following security solutions should be configured to best provide the ability to monitor and block these known signature-based attacks?",
+      "options": {
+        "A": "ACL",
+        "B": "DLP",
+        "C": "IDS",
+        "D": "IPS"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "The best solution for monitoring and blocking known signature-based attacks, particularly those exploiting vulnerabilities in older browser versions, is an Intrusion Prevention System (IPS). An IPS is designed to actively monitor network traffic, identify malicious activities based on known signatures or behaviors, and prevent such activities by blocking or redirecting traffic. This is crucial for mitigating attacks that exploit known vulnerabilities in software, like outdated browsers, where signatures of such attacks are well-documented and can be effectively managed by an IPS."
+    },
+    {
+      "number": 129,
+      "question": "Which of the following would be the best way to block unknown programs from executing?",
+      "options": {
+        "A": "Access control list",
+        "B": "Application allow list",
+        "C": "Host-based firewall",
+        "D": "DLP solution"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "The best way to block unknown programs from executing is by implementing an 'Application Allow List'. This approach involves explicitly specifying which applications are permitted to run on a system. By only allowing known, trusted applications to execute, this method effectively blocks any unauthorized or unknown programs, including potential malware. Unlike other options, an application allow list is proactive and specific in managing application execution, making it a robust method for enhancing system security against unknown threats."
+    },
+    {
+      "number": 130,
+      "question": "Which of the following vulnerabilities is associated with installing software outside of a manufacturer's approved software repository?",
+      "options": {
+        "A": "Jailbreaking",
+        "B": "Memory injection",
+        "C": "Resource reuse",
+        "D": "Side loading"
+      },
+      "answer": [
+        "D"
+      ],
+      "explanation": "Side loading is the process of installing software from sources outside of a manufacturer's approved software repository. This practice is associated with various security vulnerabilities because it bypasses the security checks and balances typically present in official repositories. Side-loaded applications may not have undergone rigorous security testing, increasing the risk of introducing malware or other malicious code into a system. It's important to be cautious with side loading, as it can expose systems to increased security risks."
+    },
+    {
+      "number": 131,
+      "question": "A healthcare organization wants to provide a web application that allows individuals to digitally report health emergencies. Which of the following is the most important consideration during development?",
+      "options": {
+        "A": "Scalability",
+        "B": "Availability",
+        "C": "Cost",
+        "D": "Ease of deployment"
+      },
+      "answer": [
+        "B"
+      ],
+      "explanation": "For a web application that facilitates the digital reporting of health emergencies, availability is the paramount consideration. The application must be reliable and accessible at all times, as any downtime or inaccessibility could have serious implications for public health and safety. It's crucial that the application is designed to handle high traffic volumes and has robust mechanisms in place to prevent and recover from potential outages, ensuring continuous operation even under challenging conditions."
+    },
+    {
+      "number": 132,
+      "question": "Which of the following describes a security alerting and monitoring tool that collects system, application, and network logs from multiple sources in a centralized system?",
+      "options": {
+        "A": "SIEM",
+        "B": "DLP",
+        "C": "IDS",
+        "D": "SNMP"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "SIEM (Security Information and Event Management) is the most appropriate tool described here for collecting and centralizing logs from various systems, applications, and networks. It not only aggregates this data but also provides analysis, event correlation, alerting, and reporting capabilities. This helps in identifying, understanding, and responding to security incidents and threats, making it an essential component for comprehensive security monitoring and management."
+    },
+    {
+      "number": 133,
+      "question": "The marketing department set up its own project management software without telling the appropriate departments. Which of the following describes this scenario?",
+      "options": {
+        "A": "Shadow IT",
+        "B": "Insider threat",
+        "C": "Data exfiltration",
+        "D": "Service disruption"
+      },
+      "answer": [
+        "A"
+      ],
+      "explanation": "This scenario is a classic example of 'Shadow IT,' where departments or individuals within an organization use IT systems, devices, software, applications, or services without explicit organizational approval. Shadow IT can lead to security risks, compliance issues, and a lack of control over corporate data and IT infrastructure. It underscores the importance of having robust IT governance and clear communication channels within an organization."
+    },
+    {
+      "number": 134,
+      "question": "A company has begun labeling all laptops with asset inventory stickers and associating them with employee IDs. Which of the following security benefits do these actions provide? (Choose two.)",
+      "options": {
+        "A": "If a security incident occurs on the device, the correct employee can be notified.",
+        "B": "The security team will be able to send user awareness training to the appropriate device.",
+        "C": "Users can be mapped to their devices when configuring software MFA tokens.",
+        "D": "User-based firewall policies can be correctly targeted to the appropriate laptops.",
+        "E": "When conducting penetration testing, the security team will be able to target the desired laptops.",
+        "F": "Company data can be accounted for when the employee leaves the organization."
+      },
+      "answer": [
+        "A",
+        "F"
+      ],
+      "explanation": "By labeling laptops with asset inventory stickers and associating them with employee IDs, a company gains two primary security benefits: A) It allows for quick identification of the owner in case of a security incident, enabling prompt and appropriate notification. F) It ensures proper accountability of company data when an employee leaves the organization, facilitating data management and protection protocols. These measures are crucial for maintaining data security and integrity in an organizational context."
+    },
+    {
+      "number": 135,
+      "question": "Which of the following must be considered when designing a high-availability network? (Select two).",
+      "options": {
+        "A": "Ease of recovery",
+        "B": "Ability to patch",
+        "C": "Physical isolation",
+        "D": "Responsiveness",
+        "E": "Attack surface",
+        "F": "Extensible authentication"
+      },
+      "answer": [
+        "A",
+        "E"
+      ],
+      "explanation": "When designing a high-availability network, two critical factors to consider are: A) Ease of recovery, which ensures the network can quickly bounce back from failures or disruptions, and E) Attack surface, which involves minimizing potential points of exploitation by attackers. These considerations are essential for maintaining the network's continuous operation and safeguarding it against various security threats."
+    },
+    {
+      "number": 136,
+      "question": "Which of the following teams combines both offensive and defensive testing techniques to protect an organization's critical systems?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Purple",
+        "D": "Yellow"
+      },
+      "answer": "C",
+      "explanation": "Purple is the team that combines both offensive and defensive testing techniques to protect an organization's critical systems. Purple is not a separate team, but rather a collaboration between the red team and the blue team. The red team is the offensive team that simulates attacks and exploits vulnerabilities in the organization's systems. The blue team is the defensive team that monitors and protects the organization's systems from real and simulated threats. The purple team exists to ensure and maximize the effectiveness of the red and blue teams by integrating the defensive tactics and controls from the blue team with the threats and vulnerabilities found by the red team into a single narrative that improves the overall security posture of the organization. Red, blue, and yellow are other types of teams involved in security testing, but they do not combine both offensive and defensive techniques. The yellow team is the team that builds software solutions, scripts, and other programs that the blue team uses in the security testing.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition, page 1331; Penetration Testing: Understanding Red, Blue, & Purple Teams"
+    },
+    {
+      "number": 137,
+      "question": "An IT manager informs the entire help desk staff that only the IT manager and the help desk lead will have access to the administrator console of the help desk software. Which of the following security techniques is the IT manager setting up?",
+      "options": {
+        "A": "Hardening",
+        "B": "Employee monitoring",
+        "C": "Configuration enforcement",
+        "D": "Least privilege"
+      },
+      "answer": "D",
+      "explanation": "The principle of least privilege is a security concept that limits access to resources to the minimum level needed for a user, a program, or a device to perform a legitimate function. It is a cybersecurity best practice that protects high-value data and assets from compromise or insider threat. Least privilege can be applied to different abstraction layers of a computing environment, such as processes, systems, or connected devices. However, it is rarely implemented in practice. In this scenario, the IT manager is setting up the principle of least privilege by restricting access to the administrator console of the help desk software to only two authorized users: the IT manager and the help desk lead. This way, the IT manager can prevent unauthorized or accidental changes to the software configuration, data, or functionality by other help desk staff. The other help desk staff will only have access to the normal user interface of the software, which is sufficient for them to perform their job functions. The other options are not correct. Hardening is the process of securing a system by reducing its surface of vulnerability, such as by removing unnecessary software, changing default passwords, or disabling unnecessary services. Employee monitoring is the surveillance of workers' activity, such as by tracking web browsing, application use, keystrokes, or screenshots. Configuration enforcement is the process of ensuring that a system adheres to a predefined set of security settings, such as by applying a patch, a policy, or a template.",
+      "source": "https://en.wikipedia.org/wiki/Principle_of_least_privilege"
+    },
+    {
+      "number": 137,
+      "question": "An IT manager informs the entire help desk staff that only the IT manager and the help desk lead will have access to the administrator console of the help desk software. Which of the following security techniques is the IT manager setting up?",
+      "options": {
+        "A": "Hardening",
+        "B": "Employee monitoring",
+        "C": "Configuration enforcement",
+        "D": "Least privilege"
+      },
+      "answer": "D",
+      "explanation": "The principle of least privilege is a security concept that limits access to resources to the minimum level needed for a user, a program, or a device to perform a legitimate function. It is a cybersecurity best practice that protects high-value data and assets from compromise or insider threat. Least privilege can be applied to different abstraction layers of a computing environment, such as processes, systems, or connected devices. However, it is rarely implemented in practice. In this scenario, the IT manager is setting up the principle of least privilege by restricting access to the administrator console of the help desk software to only two authorized users: the IT manager and the help desk lead. This way, the IT manager can prevent unauthorized or accidental changes to the software configuration, data, or functionality by other help desk staff. The other help desk staff will only have access to the normal user interface of the software, which is sufficient for them to perform their job functions. The other options are not correct. Hardening is the process of securing a system by reducing its surface of vulnerability, such as by removing unnecessary software, changing default passwords, or disabling unnecessary services. Employee monitoring is the surveillance of workers' activity, such as by tracking web browsing, application use, keystrokes, or screenshots. Configuration enforcement is the process of ensuring that a system adheres to a predefined set of security settings, such as by applying a patch, a policy, or a template.",
+      "source": "https://en.wikipedia.org/wiki/Principle_of_least_privilege"
+    },
+    {
+      "number": 139,
+      "question": "A security analyst is reviewing alerts in the SIEM related to potential malicious network traffic coming from an employee's corporate laptop. The security analyst has determined that additional data about the executable running on the machine is necessary to continue the investigation. Which of the following logs should the analyst use as a data source?",
+      "options": {
+        "A": "Application",
+        "B": "IPS/IDS",
+        "C": "Network",
+        "D": "Endpoint"
+      },
+      "answer": "D",
+      "explanation": "An endpoint log is a file that contains information about the activities and events that occur on an end-user device, such as a laptop, desktop, tablet, or smartphone. Endpoint logs can provide valuable data for security analysts, such as the processes running on the device, the network connections established, the files accessed or modified, the user actions performed, and the applications installed or updated. Endpoint logs can also record the details of any executable files running on the device, such as the name, path, size, hash, signature, and permissions of the executable. An application log is a file that contains information about the events that occur within a software application, such as errors, warnings, transactions, or performance metrics. Application logs can help developers and administrators troubleshoot issues, optimize performance, and monitor user behavior. However, application logs may not provide enough information about the executable files running on the device, especially if they are malicious or unknown. An IPS/IDS log is a file that contains information about the network traffic that is monitored and analyzed by an intrusion prevention system (IPS) or an intrusion detection system (IDS). IPS/IDS logs can help security analysts identify and block potential attacks, such as exploit attempts, denial-of-service (DoS) attacks, or malicious scans. However, IPS/IDS logs may not provide enough information about the executable files running on the device, especially if they are encrypted, obfuscated, or use legitimate protocols. A network log is a file that contains information about the network activity and communication that occurs between devices, such as IP addresses, ports, protocols, packets, or bytes. Network logs can help security analysts understand the network topology, traffic patterns, and bandwidth usage. However, network logs may not provide enough information about the executable files running on the device, especially if they are hidden, spoofed, or use proxy servers. Therefore, the best log type to use as a data source for additional information about the executable running on the machine is the endpoint log, as it can provide the most relevant and detailed data about the executable file and its behavior.",
+      "source": "https://www.crowdstrike.com/cybersecurity-101/observability/application-log/"
+    },
+    {
+      "number": 140,
+      "question": "A security analyst scans a company's public network and discovers a host is running a remote desktop that can be used to access the production network. Which of the following changes should the security analyst recommend?",
+      "options": {
+        "A": "Changing the remote desktop port to a non-standard number",
+        "B": "Setting up a VPN and placing the jump server inside the firewall",
+        "C": "Using a proxy for web connections from the remote desktop server",
+        "D": "Connecting the remote server to the domain and increasing the password length"
+      },
+      "answer": "B",
+      "explanation": "A VPN is a virtual private network that creates a secure tunnel between two or more devices over a public network. A VPN can encrypt and authenticate the data, as well as hide the IP addresses and locations of the devices. A jump server is a server that acts as an intermediary between a user and a target server, such as a production server. A jump server can provide an additional layer of security and access control, as well as logging and auditing capabilities. A firewall is a device or software that filters and blocks unwanted network traffic based on predefined rules. A firewall can protect the internal network from external threats and limit the exposure of sensitive services and ports. A security analyst should recommend setting up a VPN and placing the jump server inside the firewall to improve the security of the remote desktop access to the production network. This way, the remote desktop service will not be exposed to the public network, and only authorized users with VPN credentials can access the jump server and then the production server.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition, Chapter 8: Secure Protocols and Services, page 382-383"
+    },
+    {
+      "number": 141,
+      "question": "Which of the following scenarios describes a possible business email compromise attack?",
+      "options": {
+        "A": "An employee receives a gift card request in an email that has an executive's name in the display field of the email.",
+        "B": "Employees who open an email attachment receive messages demanding payment in order to access files.",
+        "C": "A service desk employee receives an email from the HR director asking for log-in credentials to a cloud administrator account.",
+        "D": "An employee receives an email with a link to a phishing site that is designed to look like the company's email portal."
+      },
+      "answer": "A",
+      "explanation": "A business email compromise (BEC) attack is a type of phishing attack that targets employees who have access to company funds or sensitive information. The attacker impersonates a trusted person, such as an executive, a vendor, or a client, and requests a fraudulent payment, a wire transfer, or confidential data. The attacker often uses social engineering techniques, such as urgency, pressure, or familiarity, to convince the victim to comply with the request. In this scenario, option A describes a possible BEC attack, where an employee receives a gift card request in an email that has an executive's name in the display field of the email. The email may look like it is coming from the executive, but the actual email address may be spoofed or compromised. The attacker may claim that the gift cards are needed for a business purpose, such as rewarding employees or clients, and ask the employee to purchase them and send the codes. This is a common tactic used by BEC attackers to steal money from unsuspecting victims. Option B describes a possible ransomware attack, where malicious software encrypts the files on a device and demands a ransom for the decryption key. Option C describes a possible credential harvesting attack, where an attacker tries to obtain the login information of a privileged account by posing as a legitimate authority. Option D describes a possible phishing attack, where an attacker tries to lure the victim to a fake website that mimics the company's email portal and capture their credentials. These are all types of cyberattacks, but they are not examples of BEC attacks.",
+      "source": "Business Email Compromise - CompTIA Security+ SY0-701"
+    },
+    {
+      "number": 142,
+      "question": "A company is developing a business continuity strategy and needs to determine how many staff members would be required to sustain the business in the case of a disruption. Which of the following best describes this step?",
+      "options": {
+        "A": "Capacity planning",
+        "B": "Redundancy",
+        "C": "Geographic dispersion",
+        "D": "Tabletop exercise"
+      },
+      "answer": "A",
+      "explanation": "Capacity planning is the process of determining the resources needed to meet the current and future demands of an organization. Capacity planning can help a company develop a business continuity strategy by estimating how many staff members would be required to sustain the business in the case of a disruption, such as a natural disaster, a cyberattack, or a pandemic. Capacity planning can also help a company optimize the use of its resources, reduce costs, and improve performance.",
+      "source": "CompTIA Security+ Study Guide with over 500 Practice Test Questions: Exam SY0-701, 9th Edition, Chapter 4, page 184."
+    },
+    {
+      "number": 143,
+      "question": "The local administrator account for a company's VPN appliance was unexpectedly used to log in to the remote management interface. Which of the following would have most likely prevented this from happening?",
+      "options": {
+        "A": "Using least privilege",
+        "B": "Changing the default password",
+        "C": "Assigning individual user IDs",
+        "D": "Reviewing logs more frequently"
+      },
+      "answer": "B",
+      "explanation": "Changing the default password for the local administrator account on a VPN appliance is a basic security measure that would have most likely prevented the unexpected login to the remote management interface. Default passwords are often easy to guess or publicly available, and attackers can use them to gain unauthorized access to devices and systems. Changing the default password to a strong and unique one reduces the risk of brute-force attacks and credential theft. Using least privilege, assigning individual user IDs, and reviewing logs more frequently are also good security practices, but they are not as effective as changing the default password in preventing the unexpected login.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition, page 116; Local Admin Accounts - Security Risks and Best Practices"
+    },
+    {
+      "number": 145,
+      "question": "Which of the following can be used to identify potential attacker activities without affecting production servers?",
+      "options": {
+        "A": "Honey pot",
+        "B": "Video surveillance",
+        "C": "Zero Trust",
+        "D": "Geofencing"
+      },
+      "answer": "A",
+      "explanation": "A honey pot is a system or a network that is designed to mimic a real production server and attract potential attackers. A honey pot can be used to identify the attacker's methods, techniques, and objectives without affecting the actual production servers. A honey pot can also divert the attacker's attention from the real targets and waste their time and resources.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+    {
+      "number": 146,
+      "question": "After a company was compromised, customers initiated a lawsuit. The company's attorneys have requested that the security team initiate a legal hold in response to the lawsuit. Which of the following describes the action the security team will most likely be required to take?",
+      "options": {
+        "A": "Retain the emails between the security team and affected customers for 30 days.",
+        "B": "Retain any communications related to the security breach until further notice.",
+        "C": "Retain any communications between security members during the breach response.",
+        "D": "Retain all emails from the company to affected customers for an indefinite period of time."
+      },
+      "answer": "B",
+      "explanation": "A legal hold (also known as a litigation hold) is a notification sent from an organization's legal team to employees instructing them not to delete electronically stored information (ESI) or discard paper documents that may be relevant to a new or imminent legal case. A legal hold is intended to preserve evidence and prevent spoliation, which is the intentional or negligent destruction of evidence that could harm a party's case. A legal hold can be triggered by various events, such as a lawsuit, a regulatory investigation, or a subpoena. In this scenario, the company's attorneys have requested that the security team initiate a legal hold in response to the lawsuit filed by the customers after the company was compromised. This means that the security team will most likely be required to retain any communications related to the security breach until further notice.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+    {
+      "number": 147,
+      "question": "Which of the following automation techniques should a systems administrator use to streamline account creation?",
+      "options": {
+        "A": "Guard rail script",
+        "B": "Ticketing workflow",
+        "C": "Escalation script",
+        "D": "User provisioning script"
+      },
+      "answer": "D",
+      "explanation": "A user provisioning script is an automation technique that uses a predefined set of instructions or commands to create, modify, or delete user accounts and assign appropriate access or permissions. A user provisioning script can help to streamline account creation by reducing manual errors, ensuring consistency and compliance, and saving time and resources.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+    {
+      "number": 148,
+      "question": "Which of the following risk management strategies should an enterprise adopt first if a legacy application is critical to business operations and there are preventative controls that are not yet implemented?",
+      "options": {
+        "A": "Mitigate",
+        "B": "Accept",
+        "C": "Transfer",
+        "D": "Avoid"
+      },
+      "answer": "A",
+      "explanation": "Mitigate is the risk management strategy that involves reducing the likelihood or impact of a risk. If a legacy application is critical to business operations and there are preventative controls that are not yet implemented, the enterprise should adopt the mitigate strategy first to address the existing vulnerabilities and gaps in the application. This could involve applying patches, updates, or configuration changes to the application, or adding additional layers of security controls around the application. Accept, transfer, and avoid are other risk management strategies, but they are not the best options for this scenario. Accept means acknowledging the risk and accepting the consequences without taking any action. Transfer means shifting the risk to a third party, such as an insurance company or a vendor. Avoid means eliminating the risk by removing the source or changing the process. These strategies may not be feasible or desirable for a legacy application that is critical to business operations and has no preventative controls in place.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+    {
+      "number": 149,
+      "question": "Which of the following would help ensure a security analyst is able to accurately measure the overall risk to an organization when a new vulnerability is disclosed?",
+      "options": {
+        "A": "A full inventory of all hardware and software",
+        "B": "Documentation of system classifications",
+        "C": "A list of system owners and their departments",
+        "D": "Third-party risk assessment documentation"
+      },
+      "answer": "A",
+      "explanation": "A full inventory of all hardware and software is essential for measuring the overall risk to an organization when a new vulnerability is disclosed because it allows the security analyst to identify which systems are affected by the vulnerability and prioritize the remediation efforts. Without a full inventory, the security analyst may miss some vulnerable systems or waste time and resources on irrelevant ones. Documentation of system classifications, a list of system owners and their departments, and third-party risk assessment documentation are all useful for risk management, but they are not sufficient to measure the impact of a new vulnerability.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+    {
+      "number": 150,
+      "question": "During an investigation, an incident response team attempts to understand the source of an incident. Which of the following incident response activities describes this process?",
+      "options": {
+        "A": "Analysis",
+        "B": "Lessons learned",
+        "C": "Detection",
+        "D": "Containment"
+      },
+      "answer": "A",
+      "explanation": "Analysis is the incident response activity that describes the process of understanding the source of an incident. Analysis involves collecting and examining evidence, identifying the root cause, determining the scope and impact, and assessing the threat actor's motives and capabilities. Analysis helps the incident response team to formulate an appropriate response strategy, as well as to prevent or mitigate future incidents. Analysis is usually performed after detection and before containment, eradication, recovery, and lessons learned.",
+      "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+    },
+      {
+        "number": 150,
+        "question": "During an investigation, an incident response team attempts to understand the source of an incident. Which of the following incident response activities describes this process?",
+        "options": {
+          "A": "Analysis",
+          "B": "Lessons learned",
+          "C": "Detection",
+          "D": "Containment"
+        },
+        "answer": "A",
+        "explanation": "Analysis is the incident response activity that describes the process of understanding the source of an incident. Analysis involves collecting and examining evidence, identifying the root cause, determining the scope and impact, and assessing the threat actor's motives and capabilities. Analysis helps the incident response team to formulate an appropriate response strategy, as well as to prevent or mitigate future incidents. Analysis is usually performed after detection and before containment, eradication, recovery, and lessons learned.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 151,
+        "question": "After a security incident, a systems administrator asks the company to buy a NAC platform. Which of the following attack surfaces is the systems administrator trying to protect?",
+        "options": {
+          "A": "Bluetooth",
+          "B": "Wired",
+          "C": "NFC",
+          "D": "SCADA"
+        },
+        "answer": "B",
+        "explanation": "A NAC (network access control) platform is a technology that enforces security policies on devices that attempt to access a network. A NAC platform can verify the identity, role, and compliance of the devices, and grant or deny access based on predefined rules. A NAC platform can protect both wired and wireless networks, but in this scenario, the systems administrator is trying to protect the wired attack surface, which is the set of vulnerabilities that can be exploited through a physical connection to the network.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 152,
+        "question": "Which of the following is used to validate a certificate when it is presented to a user?",
+        "options": {
+          "A": "OCSP",
+          "B": "CSR",
+          "C": "CA",
+          "D": "CRC"
+        },
+        "answer": "A",
+        "explanation": "OCSP stands for Online Certificate Status Protocol. It is a protocol that allows applications to check the revocation status of a certificate in real-time. It works by sending a query to an OCSP responder, which is a server that maintains a database of revoked certificates. The OCSP responder returns a response that indicates whether the certificate is valid, revoked, or unknown.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 153,
+        "question": "A technician is opening ports on a firewall for a new system being deployed and supported by a SaaS provider. Which of the following is a risk in the new system?",
+        "options": {
+          "A": "Default credentials",
+          "B": "Non-segmented network",
+          "C": "Supply chain vendor",
+          "D": "Vulnerable software"
+        },
+        "answer": "C",
+        "explanation": "A supply chain vendor is a third-party entity that provides goods or services to an organization, such as a SaaS provider. A supply chain vendor can pose a risk to the new system if the vendor has poor security practices, breaches, or compromises that could affect the confidentiality, integrity, or availability of the system or its data.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 154,
+        "question": "A company needs to provide administrative access to internal resources while minimizing the traffic allowed through the security boundary. Which of the following methods is most secure?",
+        "options": {
+          "A": "Implementing a bastion host",
+          "B": "Deploying a perimeter network",
+          "C": "Installing a WAF",
+          "D": "Utilizing single sign-on"
+        },
+        "answer": "A",
+        "explanation": "A bastion host is a special-purpose server that is designed to withstand attacks and provide secure access to internal resources. A bastion host is usually placed on the edge of a network, acting as a gateway or proxy to the internal network. A bastion host can be configured to allow only certain types of traffic and block all other traffic. Deploying a bastion host is the most secure method among the given options because it minimizes the traffic allowed through the security boundary and provides a single point of control and defense.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 155,
+        "question": "After an audit, an administrator discovers all users have access to confidential data on a file server. Which of the following should the administrator use to restrict access to the data quickly?",
+        "options": {
+          "A": "Group Policy",
+          "B": "Content filtering",
+          "C": "Data loss prevention",
+          "D": "Access control lists"
+        },
+        "answer": "D",
+        "explanation": "Access control lists (ACLs) are rules that specify which users or groups can access which resources on a file server. They can help restrict access to confidential data by granting or denying permissions based on the identity or role of the user. In this case, the administrator can use ACLs to quickly modify the access rights of the users and prevent them from accessing the data they are not authorized to see.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 156,
+        "question": "Which of the following threat actors is the most likely to use large financial resources to attack critical systems located in other countries?",
+        "options": {
+          "A": "Insider",
+          "B": "Unskilled attacker",
+          "C": "Nation-state",
+          "D": "Hacktivist"
+        },
+        "answer": "C",
+        "explanation": "A nation-state is a threat actor that is sponsored by a government or a political entity to conduct cyberattacks against other countries or organizations. Nation-states have large financial resources, advanced technical skills, and strategic objectives that may target critical systems such as military, energy, or infrastructure. Nation-states are often motivated by espionage, sabotage, or warfare.",
+        "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+      },
+      {
+        "number": 157,
+        "question": "Which of the following are cases in which an engineer should recommend the decommissioning of a network device? (Select two).",
+        "options": {
+          "A": "The device has been moved from a production environment to a test environment.",
+          "B": "The device is configured to use cleartext passwords.",
+          "C": "The device is moved to an isolated segment on the enterprise network.",
+          "D": "The device is moved to a different location in the enterprise.",
+          "E": "The device's encryption level cannot meet organizational standards.",
+          "F": "The device is unable to receive authorized updates."
+        },
+        "answer": [
+          "E",
+          "F"
+        ],
+        "explanation": "An engineer should recommend the decommissioning of a network device when the device poses a security risk or a compliance violation to the enterprise environment. A device that cannot meet the encryption standards or receive authorized updates is vulnerable to attacks and breaches, and may expose sensitive data or compromise network integrity.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 158,
+        "question": "An employee receives a text message that appears to have been sent by the payroll department and is asking for credential verification. Which of the following social engineering techniques are being attempted? (Choose two).",
+        "options": {
+          "A": "Typosquatting",
+          "B": "Phishing",
+          "C": "Impersonation",
+          "D": "Vishing",
+          "E": "Smishing",
+          "F": "Misinformation"
+        },
+        "answer": [
+          "B",
+          "E"
+        ],
+        "explanation": "Smishing is a type of social engineering technique that uses text messages (SMS) to trick victims into revealing sensitive information, clicking malicious links, or downloading malware. Impersonation is a type of social engineering technique that involves pretending to be someone else, such as an authority figure, a trusted person, or a colleague, to gain the trust or cooperation of the target. In this scenario, the text message that claims to be from the payroll department is an example of smishing.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 159,
+        "question": "An administrator was notified that a user logged in remotely after hours and copied large amounts of data to a personal device. Which of the following best describes the user's activity?",
+        "options": {
+          "A": "Penetration testing",
+          "B": "Phishing campaign",
+          "C": "External audit",
+          "D": "Insider threat"
+        },
+        "answer": "D",
+        "explanation": "An insider threat is a security risk that originates from within the organization, such as an employee, contractor, or business partner, who has authorized access to the organization's data and systems. The user's activity of logging in remotely after hours and copying large amounts of data to a personal device is an example of a malicious insider threat, as it violates the organization's security policies and compromises the confidentiality and integrity of the data.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 160,
+        "question": "A client demands at least 99.99% uptime from a service provider's hosted security services. Which of the following documents includes the information the service provider should return to the client?",
+        "options": {
+          "A": "MOA",
+          "B": "SOW",
+          "C": "MOU",
+          "D": "SLA"
+        },
+        "answer": "D",
+        "explanation": "A service level agreement (SLA) is a document that defines the level of service expected by a customer from a service provider, indicating the metrics by which that service is measured, and the remedies or penalties, if any, should the agreed-upon levels not be achieved. An SLA can specify the minimum uptime or availability of a service, such as 99.99%, and the consequences for failing to meet that standard.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+      {
+        "number": 161,
+        "question": "A small business uses kiosks on the sales floor to display product information for customers. A security team discovers the kiosks use end-of-life operating systems. Which of the following is the security team most likely to document as a security implication of the current architecture?",
+        "options": {
+          "A": "Patch availability",
+          "B": "Product software compatibility",
+          "C": "Ease of recovery",
+          "D": "Cost of replacement"
+        },
+        "answer": "A",
+        "explanation": "End-of-life operating systems are those that are no longer supported by the vendor or manufacturer, meaning they do not receive any security updates or patches. This makes them vulnerable to exploits and attacks that take advantage of known or unknown flaws in the software. Patch availability is the security implication of using end-of-life operating systems.",
+        "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+      },
+        {
+          "number": 162,
+          "question": "Which of the following factors are the most important to address when formulating a training curriculum plan for a security awareness program? (Select two).",
+          "options": {
+            "A": "Channels by which the organization communicates with customers",
+            "B": "The reporting mechanisms for ethics violations",
+            "C": "Threat vectors based on the industry in which the organization operates",
+            "D": "Secure software development training for all personnel",
+            "E": "Cadence and duration of training events",
+            "F": "Retraining requirements for individuals who fail phishing simulations"
+          },
+          "answer": [
+            "C",
+            "E"
+          ],
+          "explanation": "A training curriculum plan for a security awareness program should address the threat vectors based on the industry in which the organization operates to help employees understand specific risks and challenges. It should also consider the cadence and duration of training events to ensure information retention and adaptability to the changing security landscape.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 163,
+          "question": "An organization would like to store customer data on a separate part of the network that is not accessible to users on the main corporate network. Which of the following should the administrator use to accomplish this goal?",
+          "options": {
+            "A": "Segmentation",
+            "B": "Isolation",
+            "C": "Patching",
+            "D": "Encryption"
+          },
+          "answer": "A",
+          "explanation": "To achieve this goal, the administrator should use segmentation, which involves dividing the network into smaller and isolated segments based on logical or physical boundaries to restrict access and enhance security.",
+          "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+        },
+        {
+          "number": 164,
+          "question": "A security administrator needs a method to secure data in an environment that includes some form of checks so that the administrator can track any changes. Which of the following should the administrator set up to achieve this goal?",
+          "options": {
+            "A": "SPF",
+            "B": "GPO",
+            "C": "NAC",
+            "D": "FIM"
+          },
+          "answer": "D",
+          "explanation": "The administrator should set up File Integrity Monitoring (FIM) to secure data and track any changes or modifications, providing checks and monitoring for data integrity.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 165,
+          "question": "Malware spread across a company's network after an employee visited a compromised industry blog. Which of the following best describes this type of attack?",
+          "options": {
+            "A": "Impersonation",
+            "B": "Disinformation",
+            "C": "Watering-hole",
+            "D": "Smishing"
+          },
+          "answer": "C",
+          "explanation": "This type of attack is a watering-hole attack, where attackers compromise websites that are commonly visited by a specific group to infect users and gain access to their network.",
+          "source": "Watering Hole Attacks"
+        },
+        {
+          "number": 166,
+          "question": "A Chief Information Security Officer (CISO) wants to explicitly raise awareness about the increase of ransomware-as-a-service in a report to the management team. Which of the following best describes the threat actor in the CISO's report?",
+          "options": {
+            "A": "Insider threat",
+            "B": "Hacktivist",
+            "C": "Nation-state",
+            "D": "Organized crime"
+          },
+          "answer": "D",
+          "explanation": "Ransomware-as-a-service is typically associated with organized crime, where criminals sell or rent ransomware tools or services to conduct cyberattacks for profit.",
+          "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+        },
+        {
+          "number": 167,
+          "question": "After a recent ransomware attack on a company's system, an administrator reviewed the log files. Which of the following control types did the administrator use?",
+          "options": {
+            "A": "Compensating",
+            "B": "Detective",
+            "C": "Preventive",
+            "D": "Corrective"
+          },
+          "answer": "B",
+          "explanation": "The administrator used detective controls, such as log files, to identify and monitor the malicious activity or anomalies associated with the ransomware attack.",
+          "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+        },
+        {
+          "number": 168,
+          "question": "An organization wants a third-party vendor to do a penetration test that targets a specific device. The organization has provided basic information about the device. Which of the following best describes this kind of penetration test?",
+          "options": {
+            "A": "Partially known environment",
+            "B": "Unknown environment",
+            "C": "Integrated",
+            "D": "Known environment"
+          },
+          "answer": "A",
+          "explanation": "This kind of penetration test is a partially known environment test, where the tester has some information about the target device, making it a gray box test.",
+          "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+        },
+        {
+          "number": 169,
+          "question": "A company is adding a clause to its AUP that states employees are not allowed to modify the operating system on mobile devices. Which of the following vulnerabilities is the organization addressing?",
+          "options": {
+            "A": "Cross-site scripting",
+            "B": "Buffer overflow",
+            "C": "Jailbreaking",
+            "D": "Side loading"
+          },
+          "answer": "C",
+          "explanation": "The organization is addressing the vulnerability associated with jailbreaking, where employees are not allowed to modify the operating system on mobile devices to prevent security risks.",
+          "source": "CompTIA Security+ Study Guide: Exam SY0-701, 9th Edition"
+        },
+        {
+          "number": 170,
+          "question": "Which of the following is the phase in the incident response process when a security analyst reviews roles and responsibilities?",
+          "options": {
+            "A": "Preparation",
+            "B": "Recovery",
+            "C": "Lessons learned",
+            "D": "Analysis"
+          },
+          "answer": "A",
+          "explanation": "The phase in the incident response process when a security analyst reviews roles and responsibilities is the Preparation phase, where policies, procedures, and team responsibilities are defined.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 171,
+          "question": "What is the primary goal of data confidentiality in cybersecurity?",
+          "options": {
+            "A": "Ensuring data is available when needed",
+            "B": "Ensuring data is accurate and free from unauthorized modifications",
+            "C": "Ensuring data is only accessible to authorized individuals",
+            "D": "Ensuring data is destroyed securely after its use"
+          },
+          "answer": "C",
+          "explanation": "Data confidentiality focuses on ensuring that data is only accessible to individuals who are authorized to access it. This is crucial for protecting sensitive information from unauthorized disclosure.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 172,
+          "question": "Which cryptographic algorithm is typically used for securing communications over the Internet?",
+          "options": {
+            "A": "RSA",
+            "B": "SHA-256",
+            "C": "AES",
+            "D": "MD5"
+          },
+          "answer": "C",
+          "explanation": "AES (Advanced Encryption Standard) is commonly used for securing communications over the Internet due to its robustness and efficiency in encrypting data.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 173,
+          "question": "What is the primary purpose of conducting regular vulnerability scans on network devices?",
+          "options": {
+            "A": "To monitor network traffic",
+            "B": "To detect outdated software versions",
+            "C": "To identify potential security weaknesses",
+            "D": "To enforce compliance with security policies"
+          },
+          "answer": "C",
+          "explanation": "Regular vulnerability scans are conducted to identify potential security weaknesses in network devices, which can then be addressed to prevent exploitation by attackers.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 174,
+          "question": "In incident response, what is the primary focus during the 'Containment' phase?",
+          "options": {
+            "A": "Analyzing the incident's root cause",
+            "B": "Preventing further damage or spread of the incident",
+            "C": "Gathering evidence for legal action",
+            "D": "Restoring systems to normal operation"
+          },
+          "answer": "B",
+          "explanation": "During the 'Containment' phase of incident response, the primary focus is on preventing further damage or spread of the incident to minimize its impact.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 175,
+          "question": "What is the key objective of implementing a risk management process in cybersecurity?",
+          "options": {
+            "A": "Eliminating all potential risks",
+            "B": "Documenting all security policies",
+            "C": "Identifying and mitigating potential threats and vulnerabilities",
+            "D": "Ensuring 100% compliance with regulations"
+          },
+          "answer": "C",
+          "explanation": "The key objective of a risk management process in cybersecurity is to identify and mitigate potential threats and vulnerabilities, thereby reducing the likelihood and impact of security incidents.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 176,
+          "question": "In the context of security, what does the principle of 'Least Privilege' ensure?",
+          "options": {
+            "A": "Users have only the permissions necessary to perform their job functions",
+            "B": "Data is encrypted in transit and at rest",
+            "C": "Networks are segmented based on organizational needs",
+            "D": "Security policies are reviewed and updated regularly"
+          },
+          "answer": "A",
+          "explanation": "The principle of 'Least Privilege' ensures that users are granted only those permissions which are essential for their job functions, minimizing the potential impact of misuse or compromise.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 177,
+          "question": "What is the primary purpose of security awareness training?",
+          "options": {
+            "A": "To train IT staff on advanced security tools",
+            "B": "To ensure compliance with legal regulations",
+            "C": "To educate employees about security threats and best practices",
+            "D": "To implement new security technologies"
+          },
+          "answer": "C",
+          "explanation": "The primary purpose of security awareness training is to educate employees about various security threats and the best practices to follow in order to maintain the organization's security posture.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 178,
+          "question": "Which of the following is a key exchange algorithm used in secure communications?",
+          "options": {
+            "A": "RSA",
+            "B": "Diffie-Hellman",
+            "C": "AES",
+            "D": "SHA-256"
+          },
+          "answer": "B",
+          "explanation": "Diffie-Hellman is a key exchange algorithm that allows two parties to securely exchange cryptographic keys over an unsecured communication channel.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 179,
+          "question": "What is the primary function of a digital certificate in public key infrastructure (PKI)?",
+          "options": {
+            "A": "Encrypting data in transit",
+            "B": "Authenticating a user's identity",
+            "C": "Generating symmetric encryption keys",
+            "D": "Verifying the authenticity of a public key"
+          },
+          "answer": "D",
+          "explanation": "In a public key infrastructure (PKI), a digital certificate's primary function is to verify the authenticity of a public key by binding it to the identity of the certificate's owner.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 180,
+          "question": "What type of scan is used to identify the operating system of network devices?",
+          "options": {
+            "A": "Vulnerability scan",
+            "B": "Network scan",
+            "C": "Port scan",
+            "D": "OS fingerprinting"
+          },
+          "answer": "D",
+          "explanation": "OS fingerprinting is a technique used to determine the operating system of network devices, often employed to tailor attacks or vulnerability assessments to the specific OS.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 181,
+          "question": "Which tool is primarily used to automatically scan web applications for common security vulnerabilities?",
+          "options": {
+            "A": "Web application firewall",
+            "B": "Intrusion detection system",
+            "C": "Web vulnerability scanner",
+            "D": "Protocol analyzer"
+          },
+          "answer": "C",
+          "explanation": "A web vulnerability scanner is a tool specifically designed to assess web applications for common security issues such as SQL injection, cross-site scripting, and other vulnerabilities.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 182,
+          "question": "Which phase of the incident response process involves taking steps to prevent the recurrence of an incident?",
+          "options": {
+            "A": "Identification",
+            "B": "Containment",
+            "C": "Eradication",
+            "D": "Lessons Learned"
+          },
+          "answer": "D",
+          "explanation": "The 'Lessons Learned' phase of the incident response process is where steps are taken to understand the incident fully and to implement measures to prevent its recurrence.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 183,
+          "question": "What is the primary purpose of a Security Information and Event Management (SIEM) system?",
+          "options": {
+            "A": "To enforce network security policies",
+            "B": "To provide a firewall and intrusion prevention services",
+            "C": "To collect, analyze, and report on security log data",
+            "D": "To manage the configuration of network devices"
+          },
+          "answer": "C",
+          "explanation": "A Security Information and Event Management (SIEM) system's primary purpose is to aggregate, analyze, and report on security-related data from various sources, aiding in threat detection and response.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 184,
+          "question": "In risk management, what does a 'Risk Assessment' primarily seek to identify?",
+          "options": {
+            "A": "The total cost of security technologies",
+            "B": "The likelihood and impact of potential security incidents",
+            "C": "Compliance with regulatory requirements",
+            "D": "The effectiveness of security training"
+          },
+          "answer": "B",
+          "explanation": "A 'Risk Assessment' in risk management primarily seeks to identify the likelihood and potential impact of various security threats and incidents, helping organizations prioritize and mitigate risks.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 185,
+          "question": "Which of the following is an example of 'risk transference' in cybersecurity?",
+          "options": {
+            "A": "Implementing a firewall",
+            "B": "Purchasing cyber insurance",
+            "C": "Conducting security awareness training",
+            "D": "Performing regular vulnerability scans"
+          },
+          "answer": "B",
+          "explanation": "'Risk transference' involves shifting the potential impact of a risk to another party, and purchasing cyber insurance is an example of this, as it transfers some financial risks to the insurance provider.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 186,
+          "question": "Which principle involves dividing a system into distinct regions to manage access and minimize potential interference?",
+          "options": {
+            "A": "Data encryption",
+            "B": "Segmentation",
+            "C": "Least privilege",
+            "D": "Risk assessment"
+          },
+          "answer": "B",
+          "explanation": "Segmentation is the principle of dividing a system into distinct regions, each with its own access controls, to manage access and minimize potential interference or compromise from other segments.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 187,
+          "question": "What is the primary objective of implementing a Security Operations Center (SOC)?",
+          "options": {
+            "A": "To provide training for IT staff",
+            "B": "To conduct risk assessments",
+            "C": "To manage day-to-day security operations",
+            "D": "To develop security policies"
+          },
+          "answer": "C",
+          "explanation": "The primary objective of a Security Operations Center (SOC) is to manage day-to-day security operations, including monitoring, detecting, analyzing, and responding to cybersecurity incidents.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 188,
+          "question": "In digital signatures, which of the following is used to verify the authenticity of a message?",
+          "options": {
+            "A": "Sender's private key",
+            "B": "Receiver's private key",
+            "C": "Sender's public key",
+            "D": "Receiver's public key"
+          },
+          "answer": "C",
+          "explanation": "In digital signatures, the sender's public key is used by the receiver to verify the authenticity of a message, ensuring it was indeed signed by the sender's private key.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 189,
+          "question": "What is the main purpose of using a hashing algorithm in data security?",
+          "options": {
+            "A": "To encrypt data",
+            "B": "To verify data integrity",
+            "C": "To generate digital certificates",
+            "D": "To facilitate key exchange"
+          },
+          "answer": "B",
+          "explanation": "The main purpose of using a hashing algorithm in data security is to verify the integrity of data. A hash value can be used to ensure that data has not been altered.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 190,
+          "question": "What is the main goal of a patch management process?",
+          "options": {
+            "A": "To upgrade software features",
+            "B": "To monitor network traffic",
+            "C": "To fix known security vulnerabilities",
+            "D": "To back up data"
+          },
+          "answer": "C",
+          "explanation": "The main goal of a patch management process is to apply software updates or 'patches' to fix known security vulnerabilities, thereby reducing the risk of exploitation.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 191,
+          "question": "Which method is commonly used to actively test security controls by simulating attacks?",
+          "options": {
+            "A": "Risk assessment",
+            "B": "Compliance auditing",
+            "C": "Penetration testing",
+            "D": "Security monitoring"
+          },
+          "answer": "C",
+          "explanation": "Penetration testing is commonly used to actively test security controls by simulating cyber attacks. It helps in identifying vulnerabilities and assessing the effectiveness of current security measures.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 192,
+          "question": "What is a primary function of a Network Intrusion Detection System (NIDS)?",
+          "options": {
+            "A": "To enforce access control policies",
+            "B": "To detect and alert on potential network intrusions",
+            "C": "To create backups of network data",
+            "D": "To filter malicious web traffic"
+          },
+          "answer": "B",
+          "explanation": "The primary function of a Network Intrusion Detection System (NIDS) is to monitor network traffic for suspicious activity and issue alerts when potential intrusions are detected.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 193,
+          "question": "During which phase of incident response are affected systems restored and returned to normal operation?",
+          "options": {
+            "A": "Identification",
+            "B": "Containment",
+            "C": "Eradication",
+            "D": "Recovery"
+          },
+          "answer": "D",
+          "explanation": "In the Recovery phase of incident response, affected systems are cleaned, restored, and returned to normal operation following an incident.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 194,
+          "question": "Which of the following best describes 'risk avoidance' in risk management?",
+          "options": {
+            "A": "Reducing the likelihood of a risk occurring",
+            "B": "Transferring the impact of a risk to another party",
+            "C": "Eliminating the source of a specific risk",
+            "D": "Accepting the consequences of a risk"
+          },
+          "answer": "C",
+          "explanation": "Risk avoidance in risk management involves eliminating the source or cause of a specific risk, thereby avoiding its potential impact altogether.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 195,
+          "question": "In the context of risk management, what is the purpose of a Business Impact Analysis (BIA)?",
+          "options": {
+            "A": "To determine the financial impact of potential risks",
+            "B": "To identify the operational impact of a loss of systems or data",
+            "C": "To analyze the market risks associated with new projects",
+            "D": "To assess the environmental risks of business operations"
+          },
+          "answer": "B",
+          "explanation": "A Business Impact Analysis (BIA) in risk management aims to identify and evaluate the operational impact on a business in the event of a loss of systems or data, such as during a disaster or cyberattack.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 196,
+          "question": "Which element of the CIA Triad focuses on preventing unauthorized data disclosure?",
+          "options": {
+            "A": "Confidentiality",
+            "B": "Integrity",
+            "C": "Availability",
+            "D": "Authenticity"
+          },
+          "answer": "A",
+          "explanation": "Confidentiality, part of the CIA Triad, focuses on preventing unauthorized disclosure of information to ensure that data is accessible only to those authorized.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 197,
+          "question": "What is the primary role of a Data Protection Officer (DPO) in an organization?",
+          "options": {
+            "A": "Managing the IT infrastructure",
+            "B": "Overseeing the data protection strategy and compliance",
+            "C": "Conducting penetration testing",
+            "D": "Developing software applications"
+          },
+          "answer": "B",
+          "explanation": "The primary role of a Data Protection Officer (DPO) is to oversee the data protection strategy and ensure compliance with data protection laws and policies.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 198,
+          "question": "What is the primary goal of implementing redundancy strategies in an organization's IT infrastructure?",
+          "options": {
+            "A": "To enhance data confidentiality",
+            "B": "To ensure data availability",
+            "C": "To maintain data integrity",
+            "D": "To reduce operational costs"
+          },
+          "answer": "B",
+          "explanation": "The primary goal of redundancy strategies in IT infrastructure is to ensure data availability by having backup systems and components in place to prevent service disruptions.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 199,
+          "question": "Which type of threat actor is typically motivated by financial gain through cybercrimes such as data breaches and ransomware attacks?",
+          "options": {
+            "A": "State-sponsored actors",
+            "B": "Hacktivists",
+            "C": "Cybercriminals",
+            "D": "Insider threats"
+          },
+          "answer": "C",
+          "explanation": "Cybercriminals are typically motivated by financial gain and are known to engage in cybercrimes like data breaches and ransomware attacks to extract money.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 200,
+          "question": "What is 'phishing' primarily aimed at?",
+          "options": {
+            "A": "Disrupting network services",
+            "B": "Stealing sensitive information",
+            "C": "Damaging physical infrastructure",
+            "D": "Encrypting critical data"
+          },
+          "answer": "B",
+          "explanation": "Phishing is a type of social engineering attack primarily aimed at stealing sensitive information, such as login credentials and credit card numbers, by tricking users into revealing them.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 201,
+          "question": "Which common attack surface can be exploited through unsecured Wi-Fi networks?",
+          "options": {
+            "A": "Mobile devices",
+            "B": "Cloud storage",
+            "C": "Data centers",
+            "D": "Physical access controls"
+          },
+          "answer": "A",
+          "explanation": "Mobile devices are a common attack surface that can be exploited through unsecured Wi-Fi networks, leading to unauthorized access and data interception.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 202,
+          "question": "Which algorithm is primarily used for secure symmetric key encryption?",
+          "options": {
+            "A": "RSA",
+            "B": "SHA-256",
+            "C": "AES",
+            "D": "ECC"
+          },
+          "answer": "C",
+          "explanation": "AES (Advanced Encryption Standard) is primarily used for secure symmetric key encryption, providing efficient and strong encryption for a wide range of applications.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 203,
+          "question": "In Public Key Infrastructure (PKI), what role does the Certificate Authority (CA) play?",
+          "options": {
+            "A": "Encrypts data using the public key",
+            "B": "Issues and manages digital certificates",
+            "C": "Provides secure key exchange mechanisms",
+            "D": "Stores user credentials securely"
+          },
+          "answer": "B",
+          "explanation": "In Public Key Infrastructure (PKI), the Certificate Authority (CA) is responsible for issuing and managing digital certificates, which are used to verify the ownership of public keys.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 204,
+          "question": "What is the primary purpose of using a 'digital signature' in cybersecurity?",
+          "options": {
+            "A": "To ensure non-repudiation",
+            "B": "To encrypt sensitive data",
+            "C": "To authenticate a user's identity",
+            "D": "To speed up data transmission"
+          },
+          "answer": "A",
+          "explanation": "The primary purpose of using a digital signature is to ensure non-repudiation, providing a means to prove the origin and authenticity of a digital message and preventing the sender from denying their action.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 205,
+          "question": "Which authentication factor category does a fingerprint scanner belong to?",
+          "options": {
+            "A": "Something you know",
+            "B": "Something you have",
+            "C": "Something you are",
+            "D": "Somewhere you are"
+          },
+          "answer": "C",
+          "explanation": "A fingerprint scanner falls under the 'Something you are' category of authentication factors, as it uses a biometric characteristic of the user.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 206,
+          "question": "What is the primary purpose of implementing Multi-Factor Authentication (MFA)?",
+          "options": {
+            "A": "To increase the speed of user authentication",
+            "B": "To reduce the complexity of passwords",
+            "C": "To enhance security by requiring multiple authentication methods",
+            "D": "To allow users to choose their preferred method of authentication"
+          },
+          "answer": "C",
+          "explanation": "The primary purpose of Multi-Factor Authentication (MFA) is to enhance security by requiring users to provide two or more different types of authentication factors.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 207,
+          "question": "In identity management, what is 'Role-Based Access Control' (RBAC) primarily used for?",
+          "options": {
+            "A": "Assigning permissions based on job functions",
+            "B": "Encrypting user data",
+            "C": "Monitoring user activities",
+            "D": "Verifying user identities"
+          },
+          "answer": "A",
+          "explanation": "Role-Based Access Control (RBAC) is primarily used for assigning permissions to users based on their roles or job functions within an organization.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 208,
+          "question": "What is the primary function of a Network Access Control (NAC) system?",
+          "options": {
+            "A": "To encrypt data traffic",
+            "B": "To monitor and log network traffic",
+            "C": "To manage IP address allocation",
+            "D": "To enforce security policies on devices accessing the network"
+          },
+          "answer": "D",
+          "explanation": "The primary function of a Network Access Control (NAC) system is to enforce security policies on devices attempting to access network resources, ensuring they meet certain security criteria.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 209,
+          "question": "In cloud computing, what is the main security concern of the Shared Responsibility Model?",
+          "options": {
+            "A": "The cloud provider is responsible for all aspects of security",
+            "B": "Users are not responsible for any aspect of security",
+            "C": "Security responsibilities are divided between the cloud provider and the user",
+            "D": "Physical security is managed by the user"
+          },
+          "answer": "C",
+          "explanation": "In the Shared Responsibility Model of cloud computing, security responsibilities are divided between the cloud provider and the user. The cloud provider secures the infrastructure, while the user is responsible for securing their data and applications.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 210,
+          "question": "What is the primary purpose of deploying a Web Application Firewall (WAF) in an enterprise environment?",
+          "options": {
+            "A": "To prevent unauthorized network access",
+            "B": "To filter and block malicious web traffic",
+            "C": "To provide secure VPN access for remote users",
+            "D": "To manage network bandwidth usage"
+          },
+          "answer": "B",
+          "explanation": "The primary purpose of a Web Application Firewall (WAF) in an enterprise environment is to filter and block malicious web traffic, protecting web applications from common attacks such as SQL injection and cross-site scripting.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 211,
+          "question": "What is the main goal of implementing an Uninterruptible Power Supply (UPS) in a data center?",
+          "options": {
+            "A": "To provide backup power during outages",
+            "B": "To increase data processing speeds",
+            "C": "To cool down the server racks",
+            "D": "To monitor environmental conditions"
+          },
+          "answer": "A",
+          "explanation": "The main goal of implementing an Uninterruptible Power Supply (UPS) in a data center is to provide backup power during outages, ensuring continuous operation of critical systems.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 212,
+          "question": "Which physical security measure is primarily used to prevent unauthorized access to facilities?",
+          "options": {
+            "A": "CCTV surveillance",
+            "B": "Fire suppression systems",
+            "C": "Biometric access controls",
+            "D": "Environmental monitoring systems"
+          },
+          "answer": "C",
+          "explanation": "Biometric access controls are physical security measures used to prevent unauthorized access to facilities by requiring biometric verification, such as fingerprints or facial recognition.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 213,
+          "question": "What is the primary purpose of asset tagging in a secure environment?",
+          "options": {
+            "A": "To encrypt sensitive data",
+            "B": "To track and manage physical assets",
+            "C": "To monitor network traffic",
+            "D": "To detect malware on devices"
+          },
+          "answer": "B",
+          "explanation": "The primary purpose of asset tagging in a secure environment is to track and manage physical assets, ensuring their security and proper usage within the organization.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 214,
+          "question": "What is the main benefit of regularly updating operating systems and software applications?",
+          "options": {
+            "A": "Enhancing user experience",
+            "B": "Increasing processing speed",
+            "C": "Reducing the risk of vulnerabilities",
+            "D": "Expanding software functionality"
+          },
+          "answer": "C",
+          "explanation": "Regularly updating operating systems and software applications is crucial for reducing the risk of vulnerabilities, as updates often include patches for known security flaws.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 215,
+          "question": "Which tool is commonly used to identify vulnerabilities in web applications by simulating malicious attacks?",
+          "options": {
+            "A": "Protocol analyzer",
+            "B": "Web vulnerability scanner",
+            "C": "Network intrusion detection system",
+            "D": "Firewall"
+          },
+          "answer": "B",
+          "explanation": "A web vulnerability scanner is commonly used to identify vulnerabilities in web applications. It simulates malicious attacks to uncover potential security weaknesses.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 216,
+          "question": "What is a primary concern when managing vulnerabilities in cloud-based environments?",
+          "options": {
+            "A": "Ensuring physical security of the data centers",
+            "B": "Maintaining control over the cloud infrastructure",
+            "C": "Staying updated with cloud provider's security patches",
+            "D": "Increasing the bandwidth for data transmission"
+          },
+          "answer": "C",
+          "explanation": "A primary concern in cloud-based environments is staying updated with the cloud provider's security patches and updates, as these are critical for maintaining the security of the hosted applications and data.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 217,
+          "question": "What is the main purpose of deploying an Intrusion Prevention System (IPS) on a network?",
+          "options": {
+            "A": "To filter spam emails",
+            "B": "To detect and prevent network intrusions",
+            "C": "To serve as a primary firewall",
+            "D": "To monitor and log network activity"
+          },
+          "answer": "B",
+          "explanation": "The main purpose of an Intrusion Prevention System (IPS) is to detect and prevent network intrusions by actively analyzing network traffic and taking action to block threats.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 218,
+          "question": "In network security, what is the primary function of a Next-Generation Firewall (NGFW)?",
+          "options": {
+            "A": "To provide a VPN for remote users",
+            "B": "To enhance the speed of data transmission",
+            "C": "To filter and block sophisticated cyber threats",
+            "D": "To manage wireless access points"
+          },
+          "answer": "C",
+          "explanation": "The primary function of a Next-Generation Firewall (NGFW) is to filter and block sophisticated cyber threats. NGFWs combine traditional firewall capabilities with advanced features like application awareness and intrusion prevention.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 219,
+          "question": "What is the primary benefit of implementing network segmentation?",
+          "options": {
+            "A": "To increase network speed",
+            "B": "To reduce operational costs",
+            "C": "To enhance network security",
+            "D": "To simplify network management"
+          },
+          "answer": "C",
+          "explanation": "The primary benefit of network segmentation is to enhance network security. It involves dividing a network into smaller, separate segments to contain security breaches and limit access to sensitive areas.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 220,
+          "question": "Which endpoint security measure is essential for protecting a Linux server from unauthorized root access?",
+          "options": {
+            "A": "Implementing full-disk encryption",
+            "B": "Disabling the guest account",
+            "C": "Configuring a host-based firewall",
+            "D": "Restricting SSH access with key-based authentication"
+          },
+          "answer": "D",
+          "explanation": "Restricting SSH access with key-based authentication is an essential security measure for protecting a Linux server from unauthorized root access, enhancing security over password-based authentication.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 221,
+          "question": "In the context of Linux systems, what is the primary purpose of SELinux?",
+          "options": {
+            "A": "To manage software packages",
+            "B": "To provide a graphical user interface",
+            "C": "To enforce mandatory access controls",
+            "D": "To optimize system performance"
+          },
+          "answer": "C",
+          "explanation": "In Linux systems, the primary purpose of SELinux (Security-Enhanced Linux) is to enforce mandatory access controls, providing an additional layer of security by managing how processes interact and access resources.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 222,
+          "question": "What is the primary benefit of using application whitelisting on an endpoint device?",
+          "options": {
+            "A": "To increase processing speed",
+            "B": "To allow any user-installed application",
+            "C": "To prevent execution of unauthorized software",
+            "D": "To update applications automatically"
+          },
+          "answer": "C",
+          "explanation": "The primary benefit of using application whitelisting on an endpoint device is to prevent the execution of unauthorized or potentially harmful software, enhancing the device's security posture.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 223,
+          "question": "In the context of web application security, what is the primary purpose of input validation?",
+          "options": {
+            "A": "To ensure user input matches the expected format",
+            "B": "To speed up data processing",
+            "C": "To encrypt user data",
+            "D": "To increase application functionality"
+          },
+          "answer": "A",
+          "explanation": "The primary purpose of input validation in web application security is to ensure that user input matches the expected format and to prevent malicious data from causing harm, such as in SQL injection attacks.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 224,
+          "question": "Which security measure is essential for protecting a Linux web server from cross-site scripting (XSS) attacks?",
+          "options": {
+            "A": "Configuring a network-based firewall",
+            "B": "Enabling SELinux policies",
+            "C": "Implementing content security policies",
+            "D": "Using antivirus software"
+          },
+          "answer": "C",
+          "explanation": "Implementing content security policies on a Linux web server is essential for protecting against cross-site scripting (XSS) attacks, as it controls which resources the browser is allowed to load.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 225,
+          "question": "What is the primary function of a WAF (Web Application Firewall) in a Linux hosting environment?",
+          "options": {
+            "A": "To manage web traffic bandwidth",
+            "B": "To filter and block malicious web traffic",
+            "C": "To authenticate user sessions",
+            "D": "To back up web application data"
+          },
+          "answer": "B",
+          "explanation": "The primary function of a WAF (Web Application Firewall) in a Linux hosting environment is to filter and block malicious web traffic, protecting the web applications from common threats like SQL injection and XSS.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 226,
+          "question": "What is the primary goal of a Security Information and Event Management (SIEM) system in incident response?",
+          "options": {
+            "A": "Automating patch management",
+            "B": "Aggregating and analyzing security events",
+            "C": "Filtering email spam",
+            "D": "Encrypting data at rest"
+          },
+          "answer": "B",
+          "explanation": "The primary goal of a Security Information and Event Management (SIEM) system in incident response is to aggregate and analyze security events from various sources, helping to detect, monitor, and respond to incidents.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 227,
+          "question": "In the context of digital forensics, what is 'chain of custody' primarily concerned with?",
+          "options": {
+            "A": "Analyzing network traffic",
+            "B": "Maintaining the integrity of evidence",
+            "C": "Recovering deleted files",
+            "D": "Monitoring user activities"
+          },
+          "answer": "B",
+          "explanation": "In digital forensics, 'chain of custody' is primarily concerned with maintaining the integrity of evidence. It involves documenting the handling of evidence to ensure its admissibility in legal proceedings.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 228,
+          "question": "During an incident response, what is the purpose of the 'containment' phase?",
+          "options": {
+            "A": "To identify the cause of the incident",
+            "B": "To eradicate the threat from the system",
+            "C": "To prevent further spread or damage",
+            "D": "To recover normal operations"
+          },
+          "answer": "C",
+          "explanation": "During an incident response, the purpose of the 'containment' phase is to prevent the incident from causing further spread or damage, stabilizing the situation.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 229,
+          "question": "Which indicator is most commonly associated with a ransomware infection on a system?",
+          "options": {
+            "A": "Unexpected network traffic spikes",
+            "B": "Files encrypted with unknown extensions",
+            "C": "Increase in CPU usage",
+            "D": "Multiple failed login attempts"
+          },
+          "answer": "B",
+          "explanation": "Files encrypted with unknown extensions are a common indicator of a ransomware infection, where the malware encrypts files on the system and demands a ransom for decryption.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 230,
+          "question": "What is a key indicator of a Distributed Denial of Service (DDoS) attack on a network?",
+          "options": {
+            "A": "Unusually high outgoing email volume",
+            "B": "Frequent password change requests",
+            "C": "Sudden increase in incoming network traffic",
+            "D": "Large number of open outbound connections"
+          },
+          "answer": "C",
+          "explanation": "A sudden increase in incoming network traffic is a key indicator of a Distributed Denial of Service (DDoS) attack, where multiple systems flood the target with traffic to overwhelm its resources.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+          "number": 231,
+          "question": "In network monitoring, what is a sign of potential unauthorized data exfiltration?",
+          "options": {
+            "A": "Decreased bandwidth usage",
+            "B": "Regular patch updates",
+            "C": "Unusual outbound data transfers at odd hours",
+            "D": "Consistent antivirus alerts"
+          },
+          "answer": "C",
+          "explanation": "Unusual outbound data transfers, especially at odd hours, can be a sign of potential unauthorized data exfiltration, indicating that sensitive data may be illicitly transferred outside the organization.",
+          "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+        },
+        {
+            "number": 232,
+            "question": "What is the primary objective of implementing a Security Policy within an organization?",
+            "options": {
+              "A": "To outline technical mechanisms for security",
+              "B": "To provide legal compliance guidelines",
+              "C": "To define the organization's security posture",
+              "D": "To configure security tools"
+            },
+            "answer": "C",
+            "explanation": "The primary objective of implementing a Security Policy within an organization is to define the overall security posture, including guidelines, procedures, and responsibilities for maintaining security.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 233,
+            "question": "What role does 'Change Management' play in IT security governance?",
+            "options": {
+              "A": "Managing personnel changes within the IT team",
+              "B": "Overseeing the secure development of new applications",
+              "C": "Controlling and documenting changes to the IT environment",
+              "D": "Updating security policies and procedures"
+            },
+            "answer": "C",
+            "explanation": "In IT security governance, 'Change Management' plays the role of controlling and documenting changes to the IT environment, ensuring that changes do not adversely affect security.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 234,
+            "question": "Why is it important for an organization to have a Data Retention Policy?",
+            "options": {
+              "A": "To ensure data is backed up regularly",
+              "B": "To define how long data should be kept before deletion",
+              "C": "To encrypt sensitive data",
+              "D": "To comply with software licensing agreements"
+            },
+            "answer": "B",
+            "explanation": "A Data Retention Policy is important for defining the duration for which data should be kept and when it should be securely deleted, ensuring compliance with legal requirements and managing storage efficiently.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 235,
+            "question": "What is a 'Risk Matrix' used for in risk management?",
+            "options": {
+              "A": "To calculate the total cost of security implementation",
+              "B": "To visually represent the severity and likelihood of risks",
+              "C": "To document all identified vulnerabilities",
+              "D": "To track the resolution of security incidents"
+            },
+            "answer": "B",
+            "explanation": "A 'Risk Matrix' is used in risk management to visually represent the severity and likelihood of risks, helping in prioritizing and making informed decisions about risk mitigation strategies.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 236,
+            "question": "In the context of vendor management, what is 'Due Diligence' primarily concerned with?",
+            "options": {
+              "A": "Ensuring vendors meet contractual obligations",
+              "B": "Researching and assessing a vendor's security practices",
+              "C": "Negotiating the best price for services",
+              "D": "Ensuring vendor compliance with industry standards"
+            },
+            "answer": "B",
+            "explanation": "'Due Diligence' in vendor management involves researching and assessing a vendor's security practices and capabilities to ensure they meet the organization's security requirements.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 237,
+            "question": "What is the main goal of conducting regular security audits in an organization?",
+            "options": {
+              "A": "To train new employees",
+              "B": "To check compliance with security policies",
+              "C": "To update security software",
+              "D": "To install new hardware"
+            },
+            "answer": "B",
+            "explanation": "The main goal of conducting regular security audits in an organization is to check compliance with established security policies and procedures, and to identify areas for improvement in the security posture.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 238,
+            "question": "Why is 'Data Classification' important in cybersecurity?",
+            "options": {
+              "A": "To ensure data is readily accessible",
+              "B": "To categorize data based on sensitivity and confidentiality",
+              "C": "To enhance the speed of data processing",
+              "D": "To reduce storage requirements"
+            },
+            "answer": "B",
+            "explanation": "'Data Classification' is important in cybersecurity for categorizing data based on its level of sensitivity and confidentiality, which helps in applying appropriate security controls and compliance measures.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 239,
+            "question": "What is the main purpose of 'Data Loss Prevention' (DLP) technologies?",
+            "options": {
+              "A": "To back up data regularly",
+              "B": "To prevent unauthorized access to databases",
+              "C": "To prevent the unauthorized transfer of sensitive data",
+              "D": "To encrypt data transmissions"
+            },
+            "answer": "C",
+            "explanation": "The main purpose of 'Data Loss Prevention' (DLP) technologies is to prevent the unauthorized transfer or leakage of sensitive data outside the organization.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          },
+          {
+            "number": 240,
+            "question": "In compliance management, what is the importance of adhering to standards such as GDPR or HIPAA?",
+            "options": {
+              "A": "To improve the organization's reputation",
+              "B": "To increase data processing capabilities",
+              "C": "To ensure legal and regulatory compliance",
+              "D": "To secure financial transactions"
+            },
+            "answer": "C",
+            "explanation": "Adhering to standards such as GDPR or HIPAA is important in compliance management to ensure the organization's legal and regulatory compliance, particularly in handling personal and sensitive data.",
+            "source": "CompTIA Security+ SY0-701 Certification Study Guide"
+          }
+      ]
